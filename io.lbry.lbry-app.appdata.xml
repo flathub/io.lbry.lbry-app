@@ -23,6 +23,26 @@
     <url type="bugtracker">https://github.com/lbryio/lbry-app/issues</url>
 
     <releases>
+        <release date="2017-12-13" version="0.19.1">
+            <description>
+                <p>Added:</p>
+                <ul>
+                    <li>Added empty rewards message on overview page (#847).</li>
+                </ul>
+
+                <p>Changed:</p>
+                <ul>
+                    <li>Updated developer tools and restructured code (#861).</li>
+                </ul>
+
+                <p>Fixed:</p>
+                <ul>
+                    <li>Fixed typos (#845).</li>
+                    <li>Fixed theme-related error while running in development (#865).</li>
+                    <li>Fixed build/signing error on Windows (#864).</li>
+                </ul>
+            </description>
+        </release>
         <release date="2017-12-11" version="0.19.0">
             <description>
                 <p>Added:</p>
