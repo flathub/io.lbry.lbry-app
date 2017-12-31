@@ -69,6 +69,25 @@
     </content_rating>
     
     <releases>
+        <release date="2017-12-30" version="0.19.3">
+            <description>
+                <p>Changed:</p>
+                <ul>
+                    <li>Improved internal code structuring by adding linting integration -- developers only (#891)</li>
+                    <li>Improved developer documentation (#910)</li>
+                </ul>
+
+                <p>Removed:</p>
+                <ul>
+                    <li>Removed email verification reward (#914)</li>
+                </ul>
+
+                <p>Fixed:</p>
+                <ul>
+                    <li>Added snackbar text in place where it was coming up blank (#902)</li>
+                </ul>
+            </description>
+        </release>
         <release date="2017-12-23" version="0.19.2">
             <description>
                 <p>Added:</p>
