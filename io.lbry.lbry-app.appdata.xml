@@ -69,6 +69,26 @@
     </content_rating>
     
     <releases>
+        <release date="2018-01-08" version="0.19.4">
+            <description>
+                <p>Added:</p>
+                <ul>
+                    <li>Video state tracking in redux - developer only (#890)</li>
+                </ul>
+
+                <p>Changed:</p>
+                <ul>
+                    <li>Improved text content in app (#921)</li>
+                </ul>
+
+                <p>Fixed:</p>
+                <ul>
+                    <li>Right click works in the app again (#928)</li>
+                    <li>Icons are now the rights size (#925)</li>
+                    <li>Fixed tip sending error (#918)</li>
+                </ul>
+            </description>
+        </release>
         <release date="2017-12-30" version="0.19.3">
             <description>
                 <p>Changed:</p>
