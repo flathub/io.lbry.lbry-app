@@ -73,6 +73,31 @@
     </content_rating>
     
     <releases>
+        <release date="2018-01-30" version="0.20.0">
+            <description>
+                <p>Added:</p>
+                <ul>
+                    <li>Added Automatic Dark Mode (#950)</li>
+                    <li>Re-introduce build dir / dist dir option for isolated build environments (#933)</li>
+                    <li>Added sms as a method for reward identity verification (#946)</li>
+                    <li>Added auto-update (#808)</li>
+                </ul>
+
+                <p>Changed:</p>
+                <ul>
+                    <li>Refactored Electron's main process (#951)</li>
+                    <li>Refactored lbryuri.js into separate named exports (#957)</li>
+                    <li>Upgraded Daemon to version 18.2 (#961)</li>
+                    <li>Upgraded Electron for security patch (commit)</li>
+                </ul>
+
+                <p>Fixed:</p>
+                <ul>
+                    <li>Fixed issues in documentation (#945)</li>
+                    <li>Fixed linting errors (#929)</li>
+                </ul>
+            </description>
+        </release>
         <release date="2018-01-08" version="0.19.4">
             <description>
                 <p>Added:</p>
