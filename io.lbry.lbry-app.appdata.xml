@@ -73,6 +73,52 @@
     </content_rating>
     
     <releases>
+        <release date="2018-03-22" version="0.21.2">
+            <description>
+                <p>Added:</p>
+                <ul>
+                    <li>Save app state when closing to tray (#968)</li>
+                    <li>Added startup-troubleshooting FAQ URL to daemon error (#1039)</li>
+                    <li>Added ability to export wallet transactions to JSON and CSV format (#976)</li>
+                    <li>Add Rewards FAQ to LBRY app (#1041)</li>
+                    <li>Notifications when the channel a user subscribes to uploads new content (#1066)</li>
+                    <li>Codacy support for Github contributions (#1059)</li>
+                    <li>App category for Linux (#877)</li>
+                    <li>Add YouTube Sync reward (#1147)</li>
+                    <li>Retain previous screen sizing on startup (#338)</li>
+                </ul>
+
+                <p>Changed:</p>
+                <ul>
+                    <li>Update LBRY Protocol to 0.19.1 (See change log for 0.19.0 and 0.19.1)</li>
+                    <li>Improved privacy by allowing users to turn off the file view counter and better understand privacy settings (#1074 / #1116)</li>
+                    <li>Disabled auto dark mode if dark mode is selected (#1006)</li>
+                    <li>Refactor Electron's main process (#951)</li>
+                    <li>Refactor lbryuri.js into separate named exports (#957)</li>
+                    <li>Keep node_modules up-to-date when yarn.lock changes due to git (#955)</li>
+                    <li>Do not kill an existing daemon, instead check if one exists (#973)</li>
+                    <li>Enable play button immediately after user clicks download (#987)</li>
+                    <li>Significantly improved search performance (#1032)</li>
+                    <li>Allow editing of claims when bid is greater than current balance (#1105)</li>
+                </ul>
+
+                <p>Fixed:</p>
+                <ul>
+                    <li>Fixed sort by date of published content (#986)</li>
+                    <li>Fix night mode start time, set to 9PM (#1050)</li>
+                    <li>Disable drag and drop of files into the app (#1045)</li>
+                    <li>Fixed uninformative error message (#1046)</li>
+                    <li>Update documentation for DevTools and fix some ESLint warnings (#911)</li>
+                    <li>Fix right click bug (#928)</li>
+                    <li>Fix Election linting errors (#929)</li>
+                    <li>App will no longer reset when minimizing to tray (#1042)</li>
+                    <li>Error when clicking LBRY URLs when app is closed on macOS (#1119)</li>
+                    <li>LBRY URLs not working on Linux (#1120)</li>
+                    <li>Fix Windows notifications not showing (#1145)</li>
+                    <li>Fix export issues (#1163)</li>
+                </ul>
+            </description>
+        </release>
         <release date="2018-01-30" version="0.20.0">
             <description>
                 <p>Added:</p>
