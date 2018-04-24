@@ -73,6 +73,14 @@
     </content_rating>
     
     <releases>
+        <release date="2018-04-23" version="0.21.3">
+            <description>
+                <p>Added:</p>
+                <ul>
+                    <li>Block blacklisted content (#1361)</li>
+                </ul>
+            </description>
+        </release>
         <release date="2018-03-22" version="0.21.2">
             <description>
                 <p>Added:</p>
