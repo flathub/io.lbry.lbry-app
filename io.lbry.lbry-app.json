@@ -96,7 +96,8 @@
             "name": "lbry-app",
             "build-options" : {
                 "env": {
-                    "electron_config_cache": "/run/build/lbry-app/electron-cache"
+                    "electron_config_cache": "/run/build/lbry-app/electron-cache",
+                    "npm_config_nodedir": "/run/build/lbry-app/node-js-headers"
                 }
             },
             "buildsystem": "simple",
@@ -133,8 +134,13 @@
                         "",
                         "yarn-offline-mirror \"/run/build/lbry-app/yarn-mirror\"",
                         "yarn-offline-mirror-pruning true"
-
                     ]
+                },
+                {
+                    "type": "archive",
+                    "url": "https://nodejs.org/download/release/v8.9.2/node-v8.9.2-headers.tar.gz",
+                    "sha256": "35ac226795678ef2b9a8f55c3eb65984bb49f71858e771c9719452d14926e83e",
+                    "dest": "node-js-headers"
                 },
                 {
                     "type": "script",
