@@ -11,6 +11,16 @@ A browser and wallet for LBRY, the decentralized, user-controlled content market
 flatpak install flathub io.lbry.lbry-app
 ```
 
+## Generating `generated-sources.json`
+
+```bash
+mkdir flatpak-generator-temp
+curl --progress-bar -L https://github.com/lbryio/lbry-app/archive/v0.21.3.tar.gz | tar xzvf - -C flatpak-generator-temp/
+git clone https://github.com/flatpak/flatpak-builder-tools.git flatpak-generator-temp/flatpak-builder-tools
+flatpak-generator-temp/flatpak-builder-tools/yarn/flatpak-yarn-generator.py flatpak-generator-temp/lbry-app*/yarn.lock -o generated-sources.json
+rm -rf flatpak-generator-temp
+```
+
 ## Building
 
 ```bash

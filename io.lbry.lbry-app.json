@@ -1,34 +1,31 @@
 {
     "app-id": "io.lbry.lbry-app",
-
     "base": "io.atom.electron.BaseApp",
     "base-version": "stable",
-
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "1.6",
     "sdk": "org.freedesktop.Sdk",
-
     "rename-desktop-file": "lbry.desktop",
     "rename-icon": "lbry",
-
     "command": "lbry-app",
-
     "finish-args": [
         "--share=ipc",
         "--share=network",
-        
         "--device=dri",
-        
         "--socket=x11",
         "--socket=wayland",
         "--socket=pulseaudio",
-        
         "--filesystem=home:rw",
-        
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.freedesktop.Notifications"
     ],
-    
+    "build-options" : {
+        "cflags": "-O2 -g",
+        "cxxflags": "-O2 -g",
+        "env": {
+            "NPM_CONFIG_LOGLEVEL": "info"
+        }
+    },
     "modules": [
         {
             "name": "libsecret",
@@ -62,34 +59,49 @@
             ]
         },
         {
-            "name": "lbry-app",
+            "name": "yarn",
             "buildsystem": "simple",
             "build-commands": [
-                "ar x LBRY_*.deb",
-                "rm -f LBRY_*.deb",
-                "tar xf data.tar.xz",
-                "rm -f control.tar.gz data.tar.xz debian-binary",
-                "cp -r usr/* /app",
-                "mkdir -p lbry-app",
-                "cp -r opt/LBRY /app/lbry-app",
-                "chmod -R a-s,go+rX,go-w /app/lbry-app",
-                "mv /app/lbry-app/lbry /app/lbry-app/lbry-app",
-                "sed -i 's|Exec=.*|Exec=lbry-app %U|' /app/share/applications/lbry.desktop",
-                "install lbry-app.sh /app/bin/lbry-app",
-                "install -Dm644 io.lbry.lbry-app.appdata.xml /app/share/appdata/io.lbry.lbry-app.appdata.xml"
+                "mkdir -p /app/share/yarn",
+                "cp -a * /app/share/yarn/",
+                "ln -s /app/share/yarn/bin/yarn /app/bin/yarn",
+                "ln -s /app/share/yarn/bin/yarnpkg /app/bin/yarnpkg"
             ],
             "sources": [
                 {
-                    "type": "file",
-                    "only-arches": ["x86_64"],
-                    "url": "https://github.com/lbryio/lbry-app/releases/download/v0.21.3/LBRY_0.21.3.deb",
-                    "sha256": "c726adbfa89168160c9edb59ad15057ef33d69aecff1af2cf63dea9bb9628c3b"
+                    "type": "archive",
+                    "url": "https://github.com/yarnpkg/yarn/releases/download/v1.3.2/yarn-v1.3.2.tar.gz",
+                    "sha256": "6cfe82e530ef0837212f13e45c1565ba53f5199eec2527b85ecbcd88bf26821d"
+                }
+            ] 
+        },
+        {
+            "name": "lbry-app",
+            "build-options" : {
+                "env": {
+                    "electron_config_cache": "/run/build/lbry-app/electron-cache"
+                }
+            },
+            "buildsystem": "simple",
+            "build-commands": [
+                "yarn install --cwd /run/build/electron-quick-start/main --offline",
+                "mkdir -p /app/main /app/bin",
+                "cp -ra * /app/main/",
+                "install lbry-app /app/bin/lbry-app",
+                "install -Dm644 io.lbry.lbry-app.appdata.xml /app/share/appdata/io.lbry.lbry-app.appdata.xml"
+            ],
+            "sources": [
+                "generated-sources.json",
+                {
+                    "type": "archive",
+                    "url": "https://github.com/lbryio/lbry-app/archive/v0.21.3.tar.gz",
+                    "sha256": "1a8d602a6d6d23f9900d3eeb0d2ac578fed5d5c485acc11227161d1cd63e698a"
                 },
                 {
                     "type": "script",
-                    "dest-filename": "lbry-app.sh",
+                    "dest-filename": "lbry-app",
                     "commands": [
-                        "exec /app/lbry-app/lbry-app \"$@\""
+                        "yarn start --cwd=/app/main \"$@\""
                     ]
                 },
                 {
