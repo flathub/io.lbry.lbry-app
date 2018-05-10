@@ -108,11 +108,11 @@
                 "install -D lbry-app /app/bin/lbry-app",
                 "install -Dm644 io.lbry.lbry-app.desktop /app/share/applications/io.lbry.lbry-app.desktop",
                 "install -Dm644 io.lbry.lbry-app.appdata.xml /app/share/appdata/io.lbry.lbry-app.appdata.xml",
-                "install -Dm644 icons/32x32.png /app/share/icons/hicolor/32x32/apps/io.lbry.lbry-app.png",
-                "install -Dm644 icons/48x48.png /app/share/icons/hicolor/48x48/apps/io.lbry.lbry-app.png",
-                "install -Dm644 icons/96x96.png /app/share/icons/hicolor/96x96/apps/io.lbry.lbry-app.png",
-                "install -Dm644 icons/128x128.png /app/share/icons/hicolor/128x128/apps/io.lbry.lbry-app.png",
-                "install -Dm644 icons/256x256.png /app/share/icons/hicolor/256x256/apps/io.lbry.lbry-app.png"
+                "install -Dm644 main/build/icons/32x32.png /app/share/icons/hicolor/32x32/apps/io.lbry.lbry-app.png",
+                "install -Dm644 main/build/icons/48x48.png /app/share/icons/hicolor/48x48/apps/io.lbry.lbry-app.png",
+                "install -Dm644 main/build/icons/96x96.png /app/share/icons/hicolor/96x96/apps/io.lbry.lbry-app.png",
+                "install -Dm644 main/build/icons/128x128.png /app/share/icons/hicolor/128x128/apps/io.lbry.lbry-app.png",
+                "install -Dm644 main/build/icons/256x256.png /app/share/icons/hicolor/256x256/apps/io.lbry.lbry-app.png"
             ],
             "sources": [
                 "generated-sources.json",
