@@ -101,7 +101,6 @@
             },
             "buildsystem": "simple",
             "build-commands": [
-                "yarn config set yarn-offline-mirror /run/build/lbry-app/yarn-mirror",
                 "yarn cache clean --offline",
                 "yarn install --offline --cwd /run/build/lbry-app/main",
                 "mkdir -p /app/main",
@@ -125,13 +124,6 @@
                 },
                 {
                     "type": "script",
-                    "dest-filename": "lbry-app",
-                    "commands": [
-                        "yarn start --cwd=/app/main \"$@\""
-                    ]
-                },
-                {
-                    "type": "script",
                     "dest": "main",
                     "dest-filename": ".yarnrc",
                     "commands": [
@@ -142,6 +134,13 @@
                         "yarn-offline-mirror \"/run/build/lbry-app/yarn-mirror\"",
                         "yarn-offline-mirror-pruning true"
 
+                    ]
+                },
+                {
+                    "type": "script",
+                    "dest-filename": "lbry-app",
+                    "commands": [
+                        "yarn start --cwd=/app/main \"$@\""
                     ]
                 },
                 {
