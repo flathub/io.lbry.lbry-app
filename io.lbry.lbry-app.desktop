@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=LBRY
+Comment=A browser for the LBRY network, a digital marketplace controlled by its users.
+Exec=lbry-app %U
+Terminal=false
+Type=Application
+Icon=io.lbry.lbry-app
+MimeType=x-scheme-handler/lbry
+Categories=AudioVideo;Video;
