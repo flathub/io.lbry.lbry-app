@@ -40,8 +40,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://git.gnome.org/browse/libsecret/snapshot/libsecret-0.18.5.tar.xz",
-                    "sha256": "10324718e9abe47e208d6e6d05b6ea4232e1de58409bcacc9b2ced69d0496071"
+                    "url": "https://gitlab.gnome.org/GNOME/libsecret/-/archive/0.18.6/libsecret-0.18.6.tar.gz",
+                    "sha256": "f4fa198d4e131f94d9ec84cfeaf6c124245e7ff3c0af11c76cc35332bfae5585"
                 }
             ]
         },
@@ -82,8 +82,8 @@
                 {
                     "type": "file",
                     "only-arches": ["x86_64"],
-                    "url": "https://github.com/lbryio/lbry-app/releases/download/v0.21.3/LBRY_0.21.3.deb",
-                    "sha256": "c726adbfa89168160c9edb59ad15057ef33d69aecff1af2cf63dea9bb9628c3b"
+                    "url": "https://github.com/lbryio/lbry-app/releases/download/v0.22.0/LBRY_0.22.0.deb",
+                    "sha256": "c813116cdcbd2863d7f6215d9dcc17358dc761d1478c12945648e79c66626803"
                 },
                 {
                     "type": "script",
