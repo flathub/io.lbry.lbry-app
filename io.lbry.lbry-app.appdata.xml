@@ -73,7 +73,25 @@
     </content_rating>
     
     <releases>
-         <release date="2018-06-26" version="0.22.0">
+        <release date="2018-07-05" version="0.22.1">
+          <description>
+            <p>Includes daemon 0.20.3, which should help with the download availability/reliability issues we've seen.</p>
+            <p>Other changes/fixes:</p>
+            <ul>
+              <li>Take previous bid amount into account when determining how much users have available to deposit (#1725)</li>
+              <li>Sidebar sizing on larger screens (#1709)</li>
+              <li>Publishing scenario while editing and changing URI (#1716)</li>
+              <li>Fix can't right click > paste into description on publish (#1664)</li>
+              <li>Mac/Linux error when starting app up too quickly after shutdown (#1727)</li>
+              <li>Console errors when multiple downloads for same claim exist (#1724)</li>
+              <li>App version in dev mode (#1722)</li>
+              <li>Long URI name displays in transaction list/Help (#1692)</li>
+              <li>Show claim name, instead of URI, when loading a channel (#1711)</li>
+            </ul>
+            <p>Happy 4th of July if you are celebrating tomorrow</p>
+          </description>
+        </release>
+        <release date="2018-06-26" version="0.22.0">
             <description>
                 <p>Added:</p>
                 <ul>
