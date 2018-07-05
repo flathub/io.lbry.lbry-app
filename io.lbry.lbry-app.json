@@ -82,7 +82,7 @@
                 {
                     "type": "file",
                     "only-arches": ["x86_64"],
-                    "url": "http://build.lbry.io/app/build-2548_commit-1e984cd/LBRY_0.22.1-rc.1.deb",
+                    "url": "https://github.com/lbryio/lbry-app/releases/download/v0.22.1/LBRY_0.22.1.deb",
                     "sha256": "c0e75c4e269d444bb74ad07993b43390dbcda75dc4f85c8c926d83578bb4af91"
                 },
                 {
