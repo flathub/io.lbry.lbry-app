@@ -73,6 +73,15 @@
     </content_rating>
     
     <releases>
+        <release date="2018-07-9" version="0.22.2">
+          <description>
+            <p>Includes daemon 0.20.3, which should help with the download availability/reliability issues we've seen.</p>
+            <p>Other changes/fixes:</p>
+            <ul>
+              <li>Fixed 'Get Credits' screen so the app doesn't break when LBC is unavailable on ShapeShift (#1739)</li>
+            </ul>
+          </description>
+        </release>
         <release date="2018-07-05" version="0.22.1">
           <description>
             <p>Includes daemon 0.20.3, which should help with the download availability/reliability issues we've seen.</p>
