@@ -73,7 +73,35 @@
     </content_rating>
     
     <releases>
-        <release date="2018-07-9" version="0.22.2">
+        <release date="2018-07-25" version="0.23.0">
+          <description>
+            <p>Added:</p>
+            <ul>
+              <li>3D file viewer for OBJ and STL file types (#1558)</li>
+              <li>PDF preview (#1576)</li>
+              <li>Thumbnail preview on publish page (#1755)</li>
+              <li>Abandoned claim transactions now show in wallet history (#1769)</li>
+              <li>Added emoji support in the claim description (#1800)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+              <li>Upgraded LBRY Protocol to version 0.20.4 to assist with download availability and lower CPU usage on idle.</li>
+              <li>Upgraded Electron-Builder and Updater to support signing the daemon and improving the auto update process (#1784)</li>
+              <li>Channel page now uses caching, faster switching between channels/claims (#1750)</li>
+              <li>Only show video error modal if you are on the video page and don't retry to play failed videos (#1768)</li>
+              <li>Actually hide NSFW files if a user chooses to hide NSFW content via the settings page (#1748)</li>
+              <li>Hide the "Community top bids" section if user chooses to hide NSFW content (#1760)</li>
+              <li>More descriptive error message when Shapeshift is unavailable (#1771)</li>
+              <li>Rename the Github repo to lbry-desktop (#1765)</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+              <li>Edit option missing from certain published claims (#1756)</li>
+              <li>Fix navigation issue with channels that have more than one page (#1797)</li>
+            </ul>
+          </description>
+        </release>
+        <release date="2018-07-09" version="0.22.2">
           <description>
             <p>Includes daemon 0.20.3, which should help with the download availability/reliability issues we've seen.</p>
             <p>Other changes/fixes:</p>
