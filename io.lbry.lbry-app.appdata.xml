@@ -73,6 +73,14 @@
     </content_rating>
     
     <releases>
+        <release date="2018-08-01" version="0.23.1">
+          <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Wallet -> Get Credits page now shows correct ShapeShift status when it's avialable (#1836)</li>
+            </ul>
+          </description>
+        </release>
         <release date="2018-07-25" version="0.23.0">
           <description>
             <p>Added:</p>
