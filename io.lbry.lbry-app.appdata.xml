@@ -73,6 +73,19 @@
     </content_rating>
     
     <releases>
+        <release date="2018-08-14" version="0.24.0">
+          <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Issue where the publish page would show "Editing" on a new publish (#1864)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+              <li>Upgrade LBRY Protocol to version 0.21.1 to improve download speed and availability.</li>
+              <li>Show label when publish button is disabled while uploading thumbnail to spee.ch (#1867)</li>
+            </ul>
+          </description>
+        </release>
         <release date="2018-08-01" version="0.23.1">
           <description>
             <p>Fixed:</p>
