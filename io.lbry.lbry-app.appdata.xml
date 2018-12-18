@@ -73,6 +73,64 @@
     </content_rating>
     
     <releases>
+         <release date="2018-12-14" version="0.26.1">
+          <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Channel subscribe button on search page (#2146)</li>
+               <li>Close modal after redeeming reward code (#2146)</li>
+               <li>Update Electron to prevent segfault on Ubuntu@18.10 (#2146)</li>
+                <li>Show reward code modal when all rewards are claimed (#2146)</li>
+            </ul>
+          </description>
+        </release>
+        <release date="2018-12-11" version="0.26.0">
+          <description>
+            <p>Added:</p>
+            <ul>
+             <li>Redemption of custom reward codes via Rewards page (#1935)</li>
+             <li>Ability to manage email preferences from Help page (#1929)</li>
+             <li>History tracking to My LBRY menu (#1846)</li>
+             <li>Gather data for comments support via claim page (#2095)</li>
+             <li>Allow typing of encryption password without clicking entry box (#1977)</li>
+             <li>Focus on search bar with {cmd,ctrl} + l; (#2003)</li>
+             <li>Support for clickable channel names on explore page headings (#2023)</li>
+             <li>Relative time and loading placeholder styles on FileCard/FileTile (#2022)</li>
+             <li>Persistence to Transaction List Filter Selection (#2048)</li>
+             <li>Subscription improvements (#2031)</li>
+             <li>Persistence to File List Filter Selections (#2050)</li>
+             <li>More share options for claim and channel pages (#2088 / #1943)</li>
+             <li>Better error handling on app startup (#2098)</li>
+             <li>FAQ and links in Report page (#2103)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+             <li>Upgraded to lbrynet v0.30.0 (#1998)</li>
+             <li>Make tooltip smarter, show full title on hover (#1979)</li>
+             <li>Channel pages to have 20 items instead of 10 (#2002)</li>
+             <li>External links to https (#2016)</li>
+             <li>Simplify FileCard and FileTile component styling (#2011)</li>
+             <li>Credit card verification messaging (#2025)</li>
+             <li>Reverse Order &amp; Use System/Location Time/Date (#2036)</li>
+             <li>Limit file type can be uploaded as thumbnail for publishing (#2034)</li>
+             <li>Change snackbar notification position to bottom-left (#2040)</li>
+             <li>Use shared colors from lbryio/color project (#2045)</li>
+             <li>Remove ToS checkbox (#2087)</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+             <li>Show pending transactions on Overview page, with refresh button (#2085)</li>
+             <li>Copyright license not being displayed correctly during edits (#1997)</li>
+             <li>Transactions filter menu collides with transaction table (#2005)</li>
+             <li>Invite table cutoff with large number of invites (#1985)</li>
+             <li>History styling on large screens and link issue with claims (#1999)</li>
+             <li>Satisfy console warnings in publishForm and validation messaging (#2010)</li>
+             <li>App crashing if invalid characters entered in LBRY URL (#2026)</li>
+             <li>File_list call continues indefinitely if a file is removed while downloading (#2042)</li>
+             <li>Open folder containing log file when Open Log File button is clicked (#2078)</li>
+            </ul>
+          </description>
+        </release>
         <release date="2018-09-19" version="0.25.1">
           <description>
             <p>Fixed:</p>
