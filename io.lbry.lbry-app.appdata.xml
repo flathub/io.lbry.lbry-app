@@ -14,24 +14,32 @@
 
     <screenshots>
         <screenshot type="default">
-            <caption>Discover view</caption>
-            <image width="1600" height="900">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/a.png</image>
+            <caption>Explore view</caption>
+            <image width="600" height="441">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/a.png</image>
         </screenshot>
         <screenshot>
-            <caption>Video view</caption>
-            <image width="1600" height="900">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/b.png</image>
+            <caption>Subscription view</caption>
+            <image width="600" height="441">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/b.png</image>
         </screenshot>
         <screenshot>
-            <caption>Playing a downloaded video</caption>
-            <image width="1600" height="900">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/c.png</image>
+            <caption>Subscription view #2</caption>
+            <image width="600" height="441">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/c.png</image>
         </screenshot>
         <screenshot>
-            <caption>Subscription viiew</caption>
-            <image width="1600" height="900">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/d.png</image>
+            <caption>Wallet overview</caption>
+            <image width="600" height="441">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/d.png</image>
         </screenshot>
         <screenshot>
-            <caption>Uploading content to LBRY</caption>
-            <image width="1600" height="900">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/e.png</image>
+            <caption>Sharing content</caption>
+            <image width="600" height="441">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/e.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>Participating in rewards</caption>
+            <image width="600" height="441">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/f.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>Rewards view</caption>
+            <image width="600" height="441">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/g.png</image>
         </screenshot>
     </screenshots>
 
@@ -73,14 +81,34 @@
     </content_rating>
     
     <releases>
+         <release date="2019-01-15" version="0.27.0">
+          <description>
+            <p>Added:</p>
+            <ul>
+              <li>Auto email confirmation (#2169)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+              <li>App redesign with shared colors component (#2144)</li>
+              <li>Upgraded LBRY SDK 0.30.4 to improve network stability</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+              <li>Show delete button on users own claims (#2147)</li>
+              <li>Fix "copy" icon being cutoff for some users (2167)</li>
+              <li>Use correct url when copying vanity addresses (#2168)</li>
+            </ul>
+            <p>See the blog post https://lbry.io/news/lbry-is-turning-27</p>
+          </description>
+        </release>
          <release date="2018-12-14" version="0.26.1">
           <description>
             <p>Fixed:</p>
             <ul>
               <li>Channel subscribe button on search page (#2146)</li>
-               <li>Close modal after redeeming reward code (#2146)</li>
-               <li>Update Electron to prevent segfault on Ubuntu@18.10 (#2146)</li>
-                <li>Show reward code modal when all rewards are claimed (#2146)</li>
+              <li>Close modal after redeeming reward code (#2146)</li>
+              <li>Update Electron to prevent segfault on Ubuntu@18.10 (#2146)</li>
+              <li>Show reward code modal when all rewards are claimed (#2146)</li>
             </ul>
           </description>
         </release>
