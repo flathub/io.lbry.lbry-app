@@ -81,6 +81,15 @@
     </content_rating>
     
     <releases>
+         <release date="2019-01-22" version="0.27.1">
+          <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Channel name overlap on homepage when screen size is small</li>
+              <li>Spacing issue/typo on email collection modal</li>
+            </ul>
+          </description>
+        </release>
          <release date="2019-01-15" version="0.27.0">
           <description>
             <p>Added:</p>
