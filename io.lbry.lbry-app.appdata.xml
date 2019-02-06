@@ -79,8 +79,24 @@
         <content_attribute id="money-purchasing">mild</content_attribute>
         <content_attribute id="money-gambling">none</content_attribute>
     </content_rating>
-    
+  
+
     <releases>
+        <release date="2019-02-05" version="0.28.0">
+          <description>
+            <p>Changes:</p>
+            <ul>
+              <li>The invite screen revamp and LBC amount/limit increase (20LBC / 10 referrals). You'll be able to claim it via a button in 1 swoop vs claiming 1 by 1.</li>
+			  <li>First run screen is less intrusive - no popup, email collection to happen in the row above featured content. </li>
+			  <li>More dynamic loading of content on the home page - faster first run, but content is loaded as you scroll down.</li>
+			  <li>Auto play next recommended video as an experimental setting</li>
+			  <li>Games support - check out - lbry://@OpenSourceGames</li>
+			  <li>Mouse back/forward navigation on Windows</li>
+			  <li>Menu changes (Downloads/Publishes are no longer under My LBRY)</li>
+			  <li>Redeem a special early upgrade reward with code "lbry-028"</li>
+            </ul>
+          </description>
+        </release>
          <release date="2019-01-22" version="0.27.1">
           <description>
             <p>Fixed:</p>
