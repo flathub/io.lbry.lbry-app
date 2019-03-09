@@ -88,6 +88,28 @@
             <ul>
 		    <li>Fixed and issue regarding balance display issue when you have 0 LBC.</li>
             </ul>
+              </description>
+            </release>
+        <release date="2019-02-21" version="0.29.1">
+          <description>
+            <p>Added:</p>
+            <ul>
+              <li>Referral link next to email input on Invite screen(#2287)</li>
+              <li>Simple search filter and feedback options (#2282)</li>
+              <li>Broken heart icon for unsubscribe (#2272)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+              <li>Upgrade LBRY SDK to 0.32.3 for improved download performance. See 0.31 for other changes since last app release.</li>
+              <li>Styling changes to unify components across projects (#2279)</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+              <li>Inverse button readability on hover (#2271)</li>
+              <li>Shutdown on app close (#2283)</li>
+              <li>Startup on GitHub version check failure (#1744)</li>
+              <li>SDK detection when running manually (#2258)</li>
+            </ul>
           </description>
         </release>
         <release date="2019-02-05" version="0.28.0">
@@ -95,13 +117,13 @@
             <p>Changes:</p>
             <ul>
               <li>The invite screen revamp and LBC amount/limit increase (20LBC / 10 referrals). You'll be able to claim it via a button in 1 swoop vs claiming 1 by 1.</li>
-			  <li>First run screen is less intrusive - no popup, email collection to happen in the row above featured content. </li>
-			  <li>More dynamic loading of content on the home page - faster first run, but content is loaded as you scroll down.</li>
-			  <li>Auto play next recommended video as an experimental setting</li>
-			  <li>Games support - check out - lbry://@OpenSourceGames</li>
-			  <li>Mouse back/forward navigation on Windows</li>
-			  <li>Menu changes (Downloads/Publishes are no longer under My LBRY)</li>
-			  <li>Redeem a special early upgrade reward with code "lbry-028"</li>
+              <li>First run screen is less intrusive - no popup, email collection to happen in the row above featured content. </li>
+              <li>More dynamic loading of content on the home page - faster first run, but content is loaded as you scroll down.</li>
+              <li>Auto play next recommended video as an experimental setting</li>
+              <li>Games support - check out - lbry://@OpenSourceGames</li>
+              <li>Mouse back/forward navigation on Windows</li>
+              <li>Menu changes (Downloads/Publishes are no longer under My LBRY)</li>
+              <li>Redeem a special early upgrade reward with code "lbry-028"</li>
             </ul>
           </description>
         </release>
