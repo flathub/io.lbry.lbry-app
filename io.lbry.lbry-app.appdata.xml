@@ -82,6 +82,14 @@
   
 
     <releases>
+        <release date="2019-03-07" version="0.29.3">
+          <description>
+            <p>Changes:</p>
+            <ul>
+		    <li>Fixed and issue regarding balance display issue when you have 0 LBC.</li>
+            </ul>
+              </description>
+            </release>
         <release date="2019-02-21" version="0.29.1">
           <description>
             <p>Added:</p>
