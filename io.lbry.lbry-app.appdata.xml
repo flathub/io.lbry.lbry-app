@@ -82,6 +82,14 @@
   
 
     <releases>
+	    <release date="2019-03-12" version="0.29.4">
+          <description>
+            <p>Changes:</p>
+            <ul>
+		    <li>Fixed an issue regarding a white screen on some videos using the autoplay feature.</li>
+            </ul>
+              </description>
+	    </release>
         <release date="2019-03-07" version="0.29.3">
           <description>
             <p>Changes:</p>
