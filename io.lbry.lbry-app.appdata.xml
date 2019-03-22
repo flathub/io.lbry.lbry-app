@@ -76,6 +76,27 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+    <release date="2019-03-21" version="0.30.0">
+      <description>
+	<p>Added:</p>
+	<ul>
+	  <li>Report errors to slack for easier debugging</li>
+	  <li>Add viewcount stats to your published content</li>
+	</ul>
+	<p>Changed:</p>
+	<ul>
+	  <li>Upgrade LBRY SDK to 0.34.0 to support better analytics and faster file starup</li>
+	  <li>Minor changes for normalisation hardfork</li>
+	  <li>New build setup to support lbry.tv</li>
+	  <li>Upgrade Electron and Electron builder to the latest version, including intial differential upgrade support for Windows</li>
+	  <li>lbry.io > lbry.com</li>
+	</ul>
+	<p>Fixed:</p>
+	<ul>
+	  <li>Incorrect snackbar messaging when attempting to navigate to a malformed claim name.</li>
+	</ul>
+      </description>
+    </release>    
     <release date="2019-03-12" version="0.29.4">
       <description>
         <p>Changes:</p>
