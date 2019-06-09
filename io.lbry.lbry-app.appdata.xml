@@ -184,7 +184,6 @@
           <li>Fix "copy" icon being cutoff for some users (2167)</li>
           <li>Use correct url when copying vanity addresses (#2168)</li>
         </ul>
-        <p>See the blog post https://lbry.io/news/lbry-is-turning-27</p>
       </description>
     </release>
     <release date="2018-12-14" version="0.26.1">
