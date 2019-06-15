@@ -68,6 +68,22 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+      <release date="2019-05-04" version="0.33.0">
+          <description>
+
+              <p>Fixed:</p>
+              <ul>
+                  <li>Channel page styling (#2520)</li>
+              </ul>
+              <p>Added:</p>
+              <ul>
+                  <li>Comic book reader (#2484)</li>
+                  <li>Base functionality for more language support (#2495)</li>
+                  <li>Add easy thumbnail selector for videos (#2492)</li>
+                  <li>Add warning before opening external file (#2478)</li>
+              </ul>
+          </description>
+      </release>
     <release date="2019-03-21" version="0.31.1">
       <description>
         <p>Fixed:</p>
