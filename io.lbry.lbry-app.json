@@ -16,19 +16,20 @@
     "finish-args": [
         "--share=ipc",
         "--share=network",
-        
+
         "--device=dri",
-        
+
         "--socket=x11",
         "--socket=wayland",
         "--socket=pulseaudio",
-        
-        "--filesystem=home:rw",
-        
+
+        "--filesystem=xdg-desktop:rw",
+        "--filesystem=xdg-download:rw",
+
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.freedesktop.Notifications"
     ],
-    
+
     "modules": [
         {
             "name": "libsecret",
