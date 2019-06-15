@@ -25,6 +25,7 @@
 
         "--filesystem=xdg-desktop:rw",
         "--filesystem=xdg-download:rw",
+        "--filesystem=xdg-videos:rw",
 
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.freedesktop.Notifications"
