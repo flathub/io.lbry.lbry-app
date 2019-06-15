@@ -13,31 +13,23 @@
   <screenshots>
     <screenshot type="default">
       <caption>Explore view</caption>
-      <image width="600" height="441">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/a.png</image>
+      <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/a.png</image>
     </screenshot>
     <screenshot>
       <caption>Subscription view</caption>
-      <image width="600" height="441">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/b.png</image>
+      <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/b.png</image>
     </screenshot>
     <screenshot>
       <caption>Subscription view #2</caption>
-      <image width="600" height="441">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/c.png</image>
+      <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/c.png</image>
     </screenshot>
     <screenshot>
       <caption>Wallet overview</caption>
-      <image width="600" height="441">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/d.png</image>
+      <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/d.png</image>
     </screenshot>
     <screenshot>
       <caption>Sharing content</caption>
-      <image width="600" height="441">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/e.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Participating in rewards</caption>
-      <image width="600" height="441">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/f.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Rewards view</caption>
-      <image width="600" height="441">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/g.png</image>
+      <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/e.png</image>
     </screenshot>
   </screenshots>
   <categories>
@@ -184,7 +176,6 @@
           <li>Fix "copy" icon being cutoff for some users (2167)</li>
           <li>Use correct url when copying vanity addresses (#2168)</li>
         </ul>
-        <p>See the blog post https://lbry.io/news/lbry-is-turning-27</p>
       </description>
     </release>
     <release date="2018-12-14" version="0.26.1">
