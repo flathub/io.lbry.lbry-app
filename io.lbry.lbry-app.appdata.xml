@@ -68,9 +68,16 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+      <release date="2019-06-19" version="0.33.2">
+          <description>
+              <p>Fixed:</p>
+              <ul>
+                  <li>Download and announce issues on popular content via LBRY SDK patch</li>
+              </ul>
+          </description>
+      </release>
       <release date="2019-06-15" version="0.33.1">
           <description>
-
               <p>Fixed:</p>
               <ul>
                   <li>Reflector bugs on failed attempts and improve wallet connection with LBRY SDK patch</li>
