@@ -78,7 +78,7 @@
                     <li>Wallet unlock while still syncing transactions</li>
                     <li>Fixed invalid chatacter checking on channel and content URLs</li>
                     <li>Upgrade SDK to 0.38.5 to improve download speeds.</li>
-                    <li>Library and other pages not displaying correctly in some instances.</li>\
+                    <li>Library and other pages not displaying correctly in some instances.</li>
                   </ul>
                   <p>Added:</p>
                   <ul>
@@ -89,7 +89,7 @@
                     <li>New loading page</li>
                     <li>Remember file deletion preference</li>
                     <li>Experimental setting for sending supports</li>
-                    <li>Experimental setting for language with Indonesian and Polish as first translations</li>\
+                    <li>Experimental setting for language with Indonesian and Polish as first translations</li>
                     <li>Short URLs throughout the application.</li>
                     <li>Wallet backup zipping option on Help page</li>
                   </ul>
@@ -97,6 +97,7 @@
                   <ul>
                     <li>Share content options now use beta.lbry.tv instead of spee.ch</li>
                   </ul>
+            </description>
           </release>
       <release date="2019-06-19" version="0.33.2">
           <description>
