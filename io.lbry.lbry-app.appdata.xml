@@ -68,6 +68,31 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+      <release date="2019-08-15" version="0.35.0">
+          <description>
+              <p>Fixed:</p>
+              <ul>
+                <li>Add startup status back to the splash screen</li>
+                <li>Ensure 'mature' tag is always visible on claim previews for mature content</li>
+                <li>Editing claim always re-uploading a new file</li>
+                <li>Publish to LBRY button on unclaimed URLs</li>
+                <li>Claim preview for lbry URLs in description</li>
+              </ul>
+              <p>Added:</p>
+              <ul>
+                <li>Brand new video player</li>
+                <li>Uses range of requests which vastly improves seeking and somewhat improves time to stream start</li>
+                <li>Better support vidoe and audio types</li>
+                <li>Variable playback speed</li>
+                <li>Volume control is back</li>
+                <li>Pop out player allows continued browsing while watching content</li>
+                <li>Ability to block channels</li>
+                <li>Table styling on publish pages</li>
+                <li>Option to disable startup animation</li>
+                <li>Suggest channels in "Channels you follow" if none are followed</li>
+            </ul>
+        </description>
+    </release>
       <release date="2019-06-19" version="0.33.2">
           <description>
               <p>Fixed:</p>
