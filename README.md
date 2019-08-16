@@ -1,9 +1,10 @@
 # io.lbry.lbry-app
 A browser and wallet for LBRY, the decentralized, user-controlled content marketplace.
 
-* Website: https://lbry.io/
+* Website: https://lbry.com/
 * LBRY Issues: https://github.com/lbryio/lbry-app/issues
 * Packaging Issues: https://github.com/flathub/io.lbry.lbry-app/issues
+* Contributing: https://github.com/flathub/io.lbry.lbry-app/blob/master/CONTRIBUTING.md
 
 ## Install
 
