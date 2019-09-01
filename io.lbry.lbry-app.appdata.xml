@@ -68,6 +68,31 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+    <release date="2019-08-30" version="0.35.2">
+          <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Don't show block button on your own channel</li>
+              <li>App crash when automatically playing content originally priced in USD</li>
+              <li>Bid amount required on publish page</li>
+              <li>Fixed subscription auto downloads</li>
+              <li>Crash qith query strings</li>
+              <li>Autoplay on paid content</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+              <li>Tips and supports on channel pages</li>
+              <li>Choose when you want automatic dark mode to take effect</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+              <li>URL format to include both channel and claim short IDs</li>
+              <li>Upgraded lbry-sdk to 0.39.0</li>
+              <li>Upgraded Windows certificate so builds continue to be signed properly</li>
+              <li>DMCA blocking to include channels</li>
+            </ul>
+          </description>
+      </release>
       <release date="2019-08-16" version="0.35.1">
           <description>
               <p>Fixed:</p>
