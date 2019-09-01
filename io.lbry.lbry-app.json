@@ -85,8 +85,8 @@
                 {
                     "type": "file",
                     "only-arches": ["x86_64"],
-                    "url": "https://github.com/lbryio/lbry-desktop/releases/download/v0.35.1/LBRY_0.35.1.deb",
-                    "sha256": "9c2a6a96fe8a84410f8a1658c02a20baf97f04cb9a2ebf5c6e141e16493fef66"
+                    "url": "https://github.com/lbryio/lbry-desktop/releases/download/v0.35.2/LBRY_0.35.2.deb",
+                    "sha256": "603b9e6108f454ee40a6ecdc7402675592bd4ec887f81cafbe6eb4c7b4f23ae0"
                 },
                 {
                     "type": "script",
