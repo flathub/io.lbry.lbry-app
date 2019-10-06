@@ -33,9 +33,9 @@
         {
             "name": "libsecret",
             "config-opts": [
-                "--disable-static",
-                "--disable-gtk-doc",
-                "--disable-manpages"
+                "-Dmanpage=false",
+                "-Dgtk_doc=false",
+                "-Dvapi=false"
             ],
             "sources": [
                 {
