@@ -5,7 +5,7 @@
     "base-version": "stable",
 
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "18.08",
+    "runtime-version": "19.08",
     "sdk": "org.freedesktop.Sdk",
 
     "rename-desktop-file": "lbry.desktop",
@@ -16,19 +16,19 @@
     "finish-args": [
         "--share=ipc",
         "--share=network",
-        
+
         "--device=dri",
-        
+
         "--socket=x11",
         "--socket=wayland",
         "--socket=pulseaudio",
-        
+
         "--filesystem=home:rw",
-        
+
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.freedesktop.Notifications"
     ],
-    
+
     "modules": [
         {
             "name": "libsecret",
