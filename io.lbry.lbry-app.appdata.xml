@@ -68,6 +68,36 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+        <release date="2019-10-4" version="0.36.0">
+          <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Not being able to abandon claims not which weren't downloaded</li>
+              <li>Duration not showing for audio</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+              <li>Channels page above Publishes which lists all your channels</li>
+              <li>YouTube channel claiming and transfer.</li>
+              <li>New user sign in flow now includes automatic redeeming of 1 LBC and channel creation</li>
+              <li>Ability to save wallet encryption password</li>
+              <li>Sync your balance (only for users with new wallets) and preferences (subscriptions and tags) between devices.</li>
+              <li>Max character count on comments</li>
+              <li>Subscription and file view counts</li>
+              <li>Pagination on Library, Publishes, and Transactions pages</li>
+              <li>Volume setting is now saved between videos</li>
+              <li>Granular balance information on wallet page - includes LBC locked in tips/claims/supports</li>
+              <li>Acknolwedgement of T.O.S and age verification on sign in.</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+              <li>Upgrade LBRY SDK to 0.42.1 to improve overall connectivity</li>
+              <li>Sign out now clears the email address and refreshes the app</li>
+              <li>Language strings are now pulled dynamically instead of requiring new app releases for better language support</li>
+              <li>Minor design improvements to styles and cards</li>
+            </ul>
+          </description>
+      </release>
         <release date="2019-09-4" version="0.35.3">
           <description>
             <p>Fixed:</p>
