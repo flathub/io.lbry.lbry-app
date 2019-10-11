@@ -5,7 +5,7 @@
     "base-version": "stable",
 
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "18.08",
+    "runtime-version": "19.08",
     "sdk": "org.freedesktop.Sdk",
 
     "rename-desktop-file": "lbry.desktop",
@@ -16,34 +16,35 @@
     "finish-args": [
         "--share=ipc",
         "--share=network",
-        
+
         "--device=dri",
-        
+
         "--socket=x11",
         "--socket=wayland",
         "--socket=pulseaudio",
-        
+
         "--filesystem=home:rw",
-        
+
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.freedesktop.Notifications"
     ],
-    
+
     "modules": [
         {
             "name": "libsecret",
             "config-opts": [
-                "--disable-static",
-                "--disable-gtk-doc",
-                "--disable-manpages"
+                "-Dmanpage=false",
+                "-Dgtk_doc=false",
+                "-Dvapi=false"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/GNOME/libsecret/-/archive/0.18.8/libsecret-0.18.8.tar.gz",
-                    "sha256": "33ee5dfd3556931b81d47111890c8b9c51093b4ced18e0e87f51c1769e24d43c"
+                    "url": "https://gitlab.gnome.org/GNOME/libsecret/-/archive/0.19.1/libsecret-0.19.1.tar.gz",
+                    "sha256": "303c6e8cf3e12534e885b0682cd6130716c6834397b76d3829321b6d83b2389c"
                 }
-            ]
+            ],
+            "buildsystem": "meson"
         },
         {
             "name": "libnotify",
