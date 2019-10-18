@@ -87,7 +87,7 @@
             <ul>
               <li>Unified experience across devices, installs, and computers (Wallet syncing for existing users and Subscription, tag, and blocked channels now write to the wallet file)</li>
               <li>Comments on channel pages under Discussion tab</li>
-              <li>Keyboard shortcuts for the following actions (-> To seek forward <- to seek backward f for going fullscreen m for mute/unmute)</li>
+              <li>Keyboard shortcuts for the following actions (RIGHT arrow To seek forward LEFT arrow to seek backward f for going fullscreen m for mute/unmute)</li>
               <li>Ability to add multiple tags at once with commas</li>
               <li>Keyboard shortcuts to toggle fullscreen - f or F11 to toggle player fullscreen mode</li>
               <li>Markdown preview for comments (Basic text formatting like bold, italic and strike, LBRY URLs preview and channel mentions, implement URL embedding in comments, Code blocks, inline code, and blockquotes, and embed images and gifs)</li>
