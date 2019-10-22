@@ -68,6 +68,20 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+        <release date="2019-10-22" version="0.37.1">
+          <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Wallet unlocking for YouTube Sync users with encrypted wallets</li>
+              <li>Syncing with no password when account first created on LBRY Android</li>
+              <li>Only show channel search bar on the content tab</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+              <li>Upgrade to LBRY SDK 0.43.3 to support above scenarios</li>
+            </ul>
+            </description>
+        </release>
         <release date="2019-10-18" version="0.37.0">
           <description>
             <p>Fixed:</p>
