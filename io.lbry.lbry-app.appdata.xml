@@ -68,6 +68,29 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+         <release date="2019-11-21" version="0.37.2">
+          <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Channel pages not showing any page numbers</li>
+              <li>Context menu does not open in the webapp when right-clicking video titles</li>
+              <li>Undefined tags prevents homepage from loading</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+              <li>Setting to start the app minimized when you login (Linux/Windows only)</li>
+              <li>Search on downloads page</li>
+              <li>Clear support state when clearing cache in settings</li>
+              <li>Allow disabling app updates for some Linux based builds</li>
+              <li>Add French, Turkish, Slovak, and Chinese language support and improved how we are loading languages</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+              <li>Updated lbry-sdk to 0.46.1. Larger wallets make take longer to startup initially due to a resync, thanks for your patience.</li>
+              <li>Optimized SDK calls for faster app startup and performance</li>
+            </ul>
+            </description>
+        </release>
         <release date="2019-10-22" version="0.37.1">
           <description>
             <p>Fixed:</p>
