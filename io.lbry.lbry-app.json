@@ -71,7 +71,7 @@
                 "tar xf data.tar.xz",
                 "rm -f control.tar.gz data.tar.xz debian-binary",
                 "find usr/share/icons/hicolor/ -name 'LBRY.png' -type f -exec bash -c 'cp $0 ${0%LBRY.png}lbry.png' {} \\;",
-                "find . -name 'LBRY.desktop' -type f -exec bash -c 'sed -i \"s|Exec=.*|Exec=/app/lbry-app/lbry-app|\" $0; cp $0 ${0%LBRY.desktop}lbry.desktop; cp $0 ${0%LBRY.desktop}lbry-app.desktop' {} \\;"
+                "find usr/share/applications/ -name 'LBRY.desktop' -type f -exec bash -c 'sed -i \"s|Exec=.*|Exec=/app/lbry-app/lbry-app|\" $0; cp $0 ${0%LBRY.desktop}lbry.desktop; cp $0 ${0%LBRY.desktop}lbry-app.desktop' {} \\;"
                 "cp -r usr/* /app/",
                 "mkdir -p lbry-app",
                 "cp -r opt/LBRY /app/lbry-app",
