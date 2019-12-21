@@ -76,7 +76,6 @@
                 "mkdir -p lbry-app",
                 "cp -r opt/LBRY /app/lbry-app",
                 "chmod -R a-s,go+rX,go-w /app/lbry-app",
-                "mv /app/lbry-app/LBRY /app/lbry-app/lbry-app",
                 "install lbry-app.sh /app/bin/lbry-app",
                 "install -Dm644 io.lbry.lbry-app.appdata.xml /app/share/appdata/io.lbry.lbry-app.appdata.xml"
             ],
