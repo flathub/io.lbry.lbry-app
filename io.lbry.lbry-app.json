@@ -70,22 +70,24 @@
                 "rm -f LBRY_*.deb",
                 "tar xf data.tar.xz",
                 "rm -f control.tar.gz data.tar.xz debian-binary",
-                "find usr/share/icons/hicolor/ -name 'LBRY.png' -type f -exec bash -c 'cp $0 ${0%LBRY.png}lbry.png' {} \\;",
-                "find usr/share/applications/ -name 'lbry.desktop' -type f -exec bash -c 'sed -i \"s|Exec=.*|Exec=/app/lbry-app/lbry|\" $0; cp $0 ${0%lbry.desktop}lbry.desktop; cp $0 ${0%lbry.desktop}lbry.desktop' {} \\;",
+                "for DIR in usr/share/icons/hicolor/*; do cp $DIR/apps/LBRY.png $DIR/apps/lbry.png; done",
+                "sed -i 's|Exec=.*|Exec=/app/lbry-app/lbry-app|' usr/share/applications/LBRY.desktop",
+                "cp usr/share/applications/LBRY.desktop usr/share/applications/lbry.desktop",
+                "cp usr/share/applications/LBRY.desktop usr/share/applications/lbry-app.desktop",
                 "cp -r usr/* /app/",
                 "mkdir -p lbry-app",
                 "cp -r opt/LBRY /app/lbry-app",
                 "chmod -R a-s,go+rX,go-w /app/lbry-app",
-                "mv /app/lbry-app/LBRY /app/lbry-app/lbry",
-                "install lbry-app.sh /app/bin/lbry",
+                "mv /app/lbry-app/LBRY /app/lbry-app/lbry-app",
+                "install lbry-app.sh /app/bin/lbry-app",
                 "install -Dm644 io.lbry.lbry-app.appdata.xml /app/share/appdata/io.lbry.lbry-app.appdata.xml"
             ],
             "sources": [
                 {
                     "type": "file",
                     "only-arches": ["x86_64"],
-                    "url": "https://github.com/lbryio/lbry-desktop/releases/download/v0.38.2/LBRY_0.38.2.deb",
-                    "sha256": "dbb296fad36f77f8cf3354cfa67c6e836a20382ef34ee50f83d1aca7de001024"
+                    "url": "https://github.com/lbryio/lbry-desktop/releases/download/v0.37.2/LBRY_0.37.2.deb",
+                    "sha256": "1db3a0ae8c5d26d4596ab0253439a37744376e0a343c29b08b3ba536501ca206"
                 },
                 {
                     "type": "script",
