@@ -68,48 +68,6 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
-         <release date="2019-12-21" version="0.38.2">
-          <description>
-            <p>Fixed:</p>
-            <ul>
-              <li>Always sync preferences on startup</li>
-              <li>App no longer crashes on edits in some cases</li>
-              <li>Sign in will no longer get stuck
-            </ul>
-            </description>
-        </release>
-     <release date="2019-12-20" version="0.38.0">
-          <description>
-            <p>Fixed:</p>
-            <ul>
-              <li>Claim name changes on edits when reselecting a file</li>
-              <li>Crash when using localized settings on some machines</li>
-              <li>Crash on some old files without proper price</li>
-              <li>Don't filter own blocked/filtered content</li>
-              <li>Read preferences from wallet if not logged in</li>
-              <li>Balance checking on edits, check minimum</li>
-              <li>Message when no tags are selected</li>
-            </ul>
-            <p>Added:</p>
-            <ul>
-              <li>More languages; Dutch, Portugeese, Italian, Russian, Spanish, Gujarati, Hindi, Malay, Marathi, Panjabi, and Swedish</li>
-              <li>Dedicated Channel Creation page</li>
-              <li>Ability to use custom wallet servers</li>
-              <li>Autoplay free text files</li>
-              <li>Show thumbnail while playing audio files</li>
-              <li>Loading state for channels and publishes page</li>
-              <li>Channel thumbnails next to comments</li>
-            </ul>
-            <p>Changed:</p>
-            <ul>
-              <li>Better dark mode and minor design tweaks throughout the application</li>
-              <li>Updated lbry-sdk to 0.50.1</li>
-              <li>Always round down dates on claim previews for better youtube parity</li>
-              <li>Removed external link warning </li>
-              <li>Always show pause button when video is paused</li>
-            </ul>
-            </description>
-        </release>
          <release date="2019-11-21" version="0.37.2">
           <description>
             <p>Fixed:</p>
