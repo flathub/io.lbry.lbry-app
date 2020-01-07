@@ -12,23 +12,23 @@
   </description>
   <screenshots>
     <screenshot type="default">
-      <caption>Explore view</caption>
+      <caption>Explore View</caption>
       <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/a.png</image>
     </screenshot>
     <screenshot>
-      <caption>Subscription view</caption>
+      <caption>Subscription View / New From Your Followed Tags</caption>
       <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/b.png</image>
     </screenshot>
     <screenshot>
-      <caption>Subscription view #2</caption>
+      <caption>Wallet View</caption>
       <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/c.png</image>
     </screenshot>
     <screenshot>
-      <caption>Wallet overview</caption>
+      <caption>Sharing Content / Share Prompt</caption>
       <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/d.png</image>
     </screenshot>
     <screenshot>
-      <caption>Sharing content</caption>
+      <caption>Rewards View / Rewards Overview</caption>
       <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/e.png</image>
     </screenshot>
   </screenshots>
