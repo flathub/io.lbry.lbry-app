@@ -68,6 +68,35 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+     <release date="2019-01-22" version="0.39.0">
+          <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Don't show edit screen for other channels</li>
+              <li>Clear publish form when clicking "New Publish"</li>
+              <li>Hide cursor on fullscreen videos</li>
+              <li>Force colour profile to render correct colours</li>
+              <li>Video viewer not resizing properly</li>
+              <li>Don't reset publish language to app language</li>
+              <li>Same file wasn't able to be reselected on publish after clearing the publish screen</li>
+              <li>Make sure results on channel page don't return content from other channels</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+              <li>New homepage design</li>
+              <li>Revamped invites system</li>
+              <li>Appimage support</li>
+              <li>Better layout for viewing text files</li>
+              <li>Show file as thumbnail for free imgage claims</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+              <li>Navigation redesign</li>
+              <li>Move away from keychain and into a cookie for authentication</li>
+              <li>Updated lbry-sdk to 0.54.1 for faster wallet syncing and improved stability</li>
+            </ul>
+            </description>
+        </release>
          <release date="2019-12-21" version="0.38.2">
           <description>
             <p>Fixed:</p>
