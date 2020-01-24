@@ -68,6 +68,18 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+     <release date="2019-01-24" version="0.39.1">
+          <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Home page tiles not loading in some cases</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+              <li>Analytics event for video buffering for easier debugging</li>
+            </ul>
+            </description>
+        </release>
      <release date="2019-01-22" version="0.39.0">
           <description>
             <p>Fixed:</p>
