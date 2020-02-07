@@ -68,6 +68,33 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+     <release date="2020-02-05" version="0.41.0">
+          <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Channels re-appearing between synced devices</li>
+              <li>Prevent spacebar from toggling fullscreen on Firefox</li>
+              <li>Context menu not working properly in some cases</li>
+              <li>Don't autoplay paid content or content fro blocked channels.
+            </ul>
+            <p>Added:</p>
+            <ul>
+              <li>Basic display of reposts</li>
+              <li>File type and content length icons</li>
+              <li>Donwload buttons on file previews</li>
+              <li>Comment edit and delete</li>
+              <li>Autoplay countdown timer</li>
+              <li>Ability to unfollow channels that have been abandonded</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+              <li>Improved embed links on share page</li>
+              <li>Improved search and related content if mature setting enabled</li>
+              <li>Library moved to sidebar</li>
+              <li>Better aria-labels for use with voiceover apps</li>
+            </ul>
+            </description>
+        </release>
      <release date="2019-01-24" version="0.39.1">
           <description>
             <p>Fixed:</p>
