@@ -85,6 +85,7 @@
             <ul>
               <li>Updated lbry-sdk to 0.59.2</li>
               <li>Improvements to text file layouts</li>
+            </ul>
             </description>
         </release>
      <release date="2020-02-05" version="0.41.0">
