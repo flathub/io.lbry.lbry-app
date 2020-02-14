@@ -68,6 +68,26 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+          <release date="2020-02-14" version="0.42.0">
+          <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Always navigate backwards after deleting and abandoning a claim</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+              <li>Ability to repost claims</li>
+              <li>New page for top claims for a specific claim name</li>
+              <li>Language support for Danish, Romanian, and Urdu</li>
+              <li>Ability to unfollow abandonded channels</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+              <li>Updated lbry-sdk to 0.59.2</li>
+              <li>Improvements to text file layouts</li>
+            </ul>
+            </description>
+        </release>
      <release date="2020-02-05" version="0.41.0">
           <description>
             <p>Fixed:</p>
