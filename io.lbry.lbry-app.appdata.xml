@@ -67,7 +67,30 @@
     <content_attribute id="money-purchasing">mild</content_attribute>
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
-  <releases>
+    <releases>
+          <release date="2020-02-25" version="0.43.0">
+          <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Download all transactions when exporting from transaction table</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+              <li>New welcome screen, no-tracking default desktop</li>
+              <li>New bottom banner on lbry.tv communicating data policies</li>
+              <li>Right click to navigate history on desktop</li>
+              <li>Javanese language support</li>
+              <li>Wallet sync status on the wallet page</li>
+              <li>Channel discovery page</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+              <li>Updated lbry-sdk to 0.61.0</li>
+              <li>Drops support for publishing anonymous comments</li>
+              <li>Don't remember past repost bid amount</li>
+            </ul>
+            </description>
+        </release>
           <release date="2020-02-14" version="0.42.0">
           <description>
             <p>Fixed:</p>
