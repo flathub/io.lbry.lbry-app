@@ -68,6 +68,14 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
     <releases>
+          <release date="2020-02-26" version="0.43.2">
+            <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Fix for people who synced invalid preference data</li>
+            </ul>
+            </description>
+          </release>
           <release date="2020-02-25" version="0.43.0">
           <description>
             <p>Fixed:</p>
