@@ -68,6 +68,29 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
     <releases>
+          <release date="2020-03-06" version="0.43.3">
+          <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Some posted comments showing up as anonymous</li>
+              <li>Back/foward navigation on Desktop app</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+              <li>New/Top/Trending options on channel pages</li>
+              <li>Encourage following channles through new discovery page on sign in</li>
+              <li>Warnings about incompatible video format and high bitrates</li>
+              <li>Czech and Kannada langauge support</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+              <li>Default channel bid to 0.01 LBC and improve publish page warnings with insufficient credits</li>
+              <li>Publish page - limit # of tags, improve wording on tag selection</li>
+              <li>Upgrade Electron-builder and updated to latest version to support libcurl changes</li>
+              <li>Upgrade LBRY-SDK to 0.63. to fix Windows UPNP issues</li>
+            </ul>
+            </description>
+        </release>
           <release date="2020-02-26" version="0.43.2">
             <description>
             <p>Fixed:</p>
