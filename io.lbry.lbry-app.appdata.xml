@@ -68,6 +68,19 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
     <releases>
+          <release date="2020-03-11" version="0.43.4">
+          <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Links to list view weren't working on the homepage and channel discovery page</li>
+              <li>Valid URL handling in search bar</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+              <li>Temporarily disabled lbry-format apps over security concerns</li>
+            </ul>
+            </description>
+        </release>
           <release date="2020-03-06" version="0.43.3">
           <description>
             <p>Fixed:</p>
