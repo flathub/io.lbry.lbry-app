@@ -25,6 +25,8 @@
 
         "--filesystem=home:rw",
 
+        "--talk-name=org.gnome.SessionManager",
+        "--talk-name=org.freedesktop.ScreenSaver",
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.freedesktop.Notifications"
     ],
