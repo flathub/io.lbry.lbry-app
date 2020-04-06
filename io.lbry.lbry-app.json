@@ -9,7 +9,7 @@
     "sdk": "org.freedesktop.Sdk",
 
     "rename-desktop-file": "lbry.desktop",
-    "rename-icon": "lbry",
+    "rename-icon": "LBRY",
 
     "command": "lbry-app",
 
