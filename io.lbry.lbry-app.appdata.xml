@@ -68,6 +68,29 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
     <releases>
+          <release date="2020-04-21" version="0.45.0">
+          <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Images were sometimes cut off depending on screen size (community pr!)</li>
+              <li>Error styling on repost modal</li>
+              <li>Fix glitchy "follow" button (community pr!</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+              <li>Updated lbry-sdk to 0.69.1</li>
+              <li>Improved file page layout/styling</li>
+              <li>Now using GitHub for auto-update downloads</li>
+              <li>Now paginating wallet history using txo_list</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+              <li>Password login with lbry.tv</li>
+              <li>Double confirmation to prevent accidentally deleting a channel</li>
+              <li>Button to unlock all tips for a claim</li>
+            </ul>
+            </description>
+        </release>
           <release date="2020-04-01" version="0.44.0">
           <description>
             <p>Fixed:</p>
