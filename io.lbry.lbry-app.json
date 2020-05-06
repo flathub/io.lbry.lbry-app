@@ -9,7 +9,7 @@
     "sdk": "org.freedesktop.Sdk",
 
     "rename-desktop-file": "lbry.desktop",
-    "rename-icon": "LBRY",
+    "rename-icon": "lbry",
 
     "command": "lbry-app",
 
@@ -70,8 +70,8 @@
                 {
                     "type": "file",
                     "only-arches": ["x86_64"],
-                    "url": "https://github.com/lbryio/lbry-desktop/releases/download/v0.45.0/LBRY_0.45.0.deb",
-                    "sha256": "5f2576577ea49a78419e77e25ce226ab3a5a5ade2de383ec41342a97051e9a0f"
+                    "url": "https://github.com/lbryio/lbry-desktop/releases/download/v0.45.1/LBRY_0.45.1.deb",
+                    "sha256": "f92635e94aab596883605e1890164720bb6bda0e56ce12c925de2ca6b14a0a07"
                 },
                 {
                     "type": "script",
