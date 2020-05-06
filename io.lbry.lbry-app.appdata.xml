@@ -68,13 +68,41 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
     <releases>
-          <release date="2020-04-21" version="0.45.0">
+          <release date="2020-05-06" version="0.45.1">
+          <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Better deleted text file handling - will now redownload the file</li>
+              <li>Fixed the title of the subscribe button getting out of sync on fast hover moments (community pr!)</li>
+              <li>Handle errors better on the creator analytics page and add a new card for stats on users most recent content</li>
+              <li>Add fallback when images fail to load (community pr!)</li>
+              <li>Fetch new content when clicking LBRY logo while on homepage (community pr!)</li>
+              <li>Aligns text across browsers and desktop (community pr!)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+              <li>Updated lbry-sdk to 0.72.0</li>
+              <li>Show 'elapsed/total' instead of countdown timer on video player (community pr!)</li>
+              <li>Modified app strings about wallet backup, to emphasize the that the wallet also controls claims (community pr!)</li>
+              <li>Add confirmation when sending tip respecting @Purchase and Tip Confirmation@ (formerly "Purchase COnfirmation") setting, now visible in LBRY.tv (community pr!)</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+              <li>Channel content preview on custom invite link page (community pr!)</li>
+              <li>Add Tooltips To Channel Action Buttons (community pr!)</li>
+              <li>Reenabled repost hiding with corresponding repost email suppression</li>
+              <li>Enabled embeds in markdown posts</li>
+              <li>Save media position in video viewer (community pr!)</li>
+            </ul>
+            </description>
+        </release>
+      <release date="2020-04-21" version="0.45.0">
           <description>
             <p>Fixed:</p>
             <ul>
               <li>Images were sometimes cut off depending on screen size (community pr!)</li>
               <li>Error styling on repost modal</li>
-              <li>Fix glitchy "follow" button (community pr!</li>
+              <li>Fix glitchy "follow" button (community pr!)</li>
             </ul>
             <p>Changed:</p>
             <ul>
