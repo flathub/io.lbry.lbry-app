@@ -68,6 +68,42 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
     <releases>
+	      <release date="2020-06-08" version="0.46.0">
+          <description>
+            <p>Fixed:</p>
+            <ul>
+              <li>Channel selector alignment on creator analytics (community pr!)</li>
+			  <li>Fix inconsistent relative-date string for claims, comments, etc.</li>
+			  <li>Error opening certain files with special characters in name (community pr!)</li>
+			  <li>Comic-book file page shows download button first, and then viewer after download (community pr!)</li>
+			  <li>Only show "start at" on share modal for video/audio (community pr!)</li>
+			  <li>Clear media position after video has played to the end (community pr!)</li>
+			  <li>Text casing on publish page (community pr!)</li>
+			  <li>Some strings not translating properly (community pr!)</li>
+			  <li>Prevents page from scrolling while pressing the spacebar when the miniplayer is out of focus  (community pr!)</li>
+			  <li>Fixed some string translations (community pr!)</li>
+			  <li>Fixed Publish page card double border (community pr!)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+              <li>Updated lbry-sdk to 0.75.0</li>
+			  <li>Use "grab" cursor on floating player to make it easier to tell you can drag it (community pr!)</li>
+			  <li>Confirm age before viewing mature content on web</li>
+			  <li>Pause thumbnail GIFs until hover</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+              <li>Can now purchase LBC inside of the app (Makes use of MoonPay)</li>
+			  <li>Allow video sharing with start timestamp (community pr!)</li>
+			  <li>Expose upload status for publishes</li>
+			  <li>More tooltip help texts (community pr!)</li>
+			  <li>Add footer on web</li>
+			  <li>Support drag-and-drop file publishing (community pr!)</li>
+			  <li>Add advanced editor for comments (communirt pr!)</li>
+			  <li>Paid content improvements</li>
+            </ul>
+            </description>
+        </release>
           <release date="2020-05-13" version="0.45.2">
           <description>
             <p>Changed:</p>
