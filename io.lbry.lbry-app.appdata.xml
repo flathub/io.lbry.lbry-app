@@ -1,1187 +1,1195 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-  <id>io.lbry.lbry-app.desktop</id>
-  <metadata_license>CC0-1.0</metadata_license>
-  <project_license>MIT</project_license>
-  <name>LBRY</name>
-  <summary>A browser and wallet for LBRY, the decentralized, user-controlled content marketplace.</summary>
-  <description>
-    <p>LBRY is a free, open, and community-run digital marketplace.</p>
-    <p>You own your data. You control the network. Indeed, you are the network.</p>
-    <p>Hollywood films, college lessons, amazing streamers and more are on the first media network ruled by you.</p>
-  </description>
-  <screenshots>
-    <screenshot type="default">
-      <caption>Explore View</caption>
-      <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/a.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Subscription View / New From Your Followed Tags</caption>
-      <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/b.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Wallet View</caption>
-      <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/c.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Sharing Content / Share Prompt</caption>
-      <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/d.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Rewards View / Rewards Overview</caption>
-      <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/e.png</image>
-    </screenshot>
-  </screenshots>
-  <categories>
-    <category>AudioVideo</category>
-    <category>Video</category>
-  </categories>
-  <url type="homepage">https://lbry.com/</url>
-  <url type="bugtracker">https://github.com/lbryio/lbry-app/issues</url>
-  <content_rating type="oars-1.1">
-    <content_attribute id="violence-cartoon">none</content_attribute>
-    <content_attribute id="violence-fantasy">none</content_attribute>
-    <content_attribute id="violence-realistic">none</content_attribute>
-    <content_attribute id="violence-bloodshed">none</content_attribute>
-    <content_attribute id="violence-sexual">none</content_attribute>
-    <content_attribute id="violence-desecration">none</content_attribute>
-    <content_attribute id="violence-slavery">none</content_attribute>
-    <content_attribute id="violence-worship">none</content_attribute>
-    <content_attribute id="drugs-alcohol">none</content_attribute>
-    <content_attribute id="drugs-narcotics">none</content_attribute>
-    <content_attribute id="drugs-tobacco">none</content_attribute>
-    <content_attribute id="sex-nudity">none</content_attribute>
-    <content_attribute id="sex-themes">none</content_attribute>
-    <content_attribute id="sex-homosexuality">none</content_attribute>
-    <content_attribute id="sex-prostitution">none</content_attribute>
-    <content_attribute id="sex-adultery">none</content_attribute>
-    <content_attribute id="sex-appearance">none</content_attribute>
-    <content_attribute id="language-profanity">none</content_attribute>
-    <content_attribute id="language-humor">none</content_attribute>
-    <content_attribute id="language-discrimination">none</content_attribute>
-    <content_attribute id="social-chat">none</content_attribute>
-    <content_attribute id="social-info">mild</content_attribute>
-    <content_attribute id="social-audio">intense</content_attribute>
-    <content_attribute id="social-location">none</content_attribute>
-    <content_attribute id="social-contacts">none</content_attribute>
-    <content_attribute id="money-purchasing">mild</content_attribute>
-    <content_attribute id="money-gambling">none</content_attribute>
-  </content_rating>
-    <releases>
-	      <release date="2020-06-08" version="0.46.0">
-          <description>
+   <id>io.lbry.lbry-app.desktop</id>
+   <metadata_license>CC0-1.0</metadata_license>
+   <project_license>MIT</project_license>
+   <name>LBRY</name>
+   <summary>A browser and wallet for LBRY, the decentralized, user-controlled content marketplace.</summary>
+   <description>
+      <p>LBRY is a free, open, and community-run digital marketplace.</p>
+      <p>You own your data. You control the network. Indeed, you are the network.</p>
+      <p>Hollywood films, college lessons, amazing streamers and more are on the first media network ruled by you.</p>
+   </description>
+   <screenshots>
+      <screenshot type="default">
+         <caption>Explore View</caption>
+         <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/a.png</image>
+      </screenshot>
+      <screenshot>
+         <caption>Subscription View / New From Your Followed Tags</caption>
+         <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/b.png</image>
+      </screenshot>
+      <screenshot>
+         <caption>Wallet View</caption>
+         <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/c.png</image>
+      </screenshot>
+      <screenshot>
+         <caption>Sharing Content / Share Prompt</caption>
+         <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/d.png</image>
+      </screenshot>
+      <screenshot>
+         <caption>Rewards View / Rewards Overview</caption>
+         <image width="1920" height="1050">https://raw.githubusercontent.com/flathub/io.lbry.lbry-app/master/screenshots/e.png</image>
+      </screenshot>
+   </screenshots>
+   <categories>
+      <category>AudioVideo</category>
+      <category>Video</category>
+   </categories>
+   <url type="homepage">https://lbry.com/</url>
+   <url type="bugtracker">https://github.com/lbryio/lbry-app/issues</url>
+   <content_rating type="oars-1.1">
+      <content_attribute id="violence-cartoon">none</content_attribute>
+      <content_attribute id="violence-fantasy">none</content_attribute>
+      <content_attribute id="violence-realistic">none</content_attribute>
+      <content_attribute id="violence-bloodshed">none</content_attribute>
+      <content_attribute id="violence-sexual">none</content_attribute>
+      <content_attribute id="violence-desecration">none</content_attribute>
+      <content_attribute id="violence-slavery">none</content_attribute>
+      <content_attribute id="violence-worship">none</content_attribute>
+      <content_attribute id="drugs-alcohol">none</content_attribute>
+      <content_attribute id="drugs-narcotics">none</content_attribute>
+      <content_attribute id="drugs-tobacco">none</content_attribute>
+      <content_attribute id="sex-nudity">none</content_attribute>
+      <content_attribute id="sex-themes">none</content_attribute>
+      <content_attribute id="sex-homosexuality">none</content_attribute>
+      <content_attribute id="sex-prostitution">none</content_attribute>
+      <content_attribute id="sex-adultery">none</content_attribute>
+      <content_attribute id="sex-appearance">none</content_attribute>
+      <content_attribute id="language-profanity">none</content_attribute>
+      <content_attribute id="language-humor">none</content_attribute>
+      <content_attribute id="language-discrimination">none</content_attribute>
+      <content_attribute id="social-chat">none</content_attribute>
+      <content_attribute id="social-info">mild</content_attribute>
+      <content_attribute id="social-audio">intense</content_attribute>
+      <content_attribute id="social-location">none</content_attribute>
+      <content_attribute id="social-contacts">none</content_attribute>
+      <content_attribute id="money-purchasing">mild</content_attribute>
+      <content_attribute id="money-gambling">none</content_attribute>
+   </content_rating>
+   <releases>
+      <release date="2020-06-08" version="0.46.1">
+         <description>
             <p>Fixed:</p>
             <ul>
-              <li>Channel selector alignment on creator analytics (community pr!)</li>
-			  <li>Fix inconsistent relative-date string for claims, comments, etc.</li>
-			  <li>Error opening certain files with special characters in name (community pr!)</li>
-			  <li>Comic-book file page shows download button first, and then viewer after download (community pr!)</li>
-			  <li>Only show "start at" on share modal for video/audio (community pr!)</li>
-			  <li>Clear media position after video has played to the end (community pr!)</li>
-			  <li>Text casing on publish page (community pr!)</li>
-			  <li>Some strings not translating properly (community pr!)</li>
-			  <li>Prevents page from scrolling while pressing the spacebar when the miniplayer is out of focus  (community pr!)</li>
-			  <li>Fixed some string translations (community pr!)</li>
-			  <li>Fixed Publish page card double border (community pr!)</li>
+               <li>Fix download button not working on claim previews</li>
+               <li>Fix app version tracking</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2020-06-08" version="0.46.0">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Channel selector alignment on creator analytics (community pr!)</li>
+               <li>Fix inconsistent relative-date string for claims, comments, etc.</li>
+               <li>Error opening certain files with special characters in name (community pr!)</li>
+               <li>Comic-book file page shows download button first, and then viewer after download (community pr!)</li>
+               <li>Only show "start at" on share modal for video/audio (community pr!)</li>
+               <li>Clear media position after video has played to the end (community pr!)</li>
+               <li>Text casing on publish page (community pr!)</li>
+               <li>Some strings not translating properly (community pr!)</li>
+               <li>Prevents page from scrolling while pressing the spacebar when the miniplayer is out of focus  (community pr!)</li>
+               <li>Fixed some string translations (community pr!)</li>
+               <li>Fixed Publish page card double border (community pr!)</li>
             </ul>
             <p>Changed:</p>
             <ul>
-              <li>Updated lbry-sdk to 0.75.0</li>
-			  <li>Use "grab" cursor on floating player to make it easier to tell you can drag it (community pr!)</li>
-			  <li>Confirm age before viewing mature content on web</li>
-			  <li>Pause thumbnail GIFs until hover</li>
+               <li>Updated lbry-sdk to 0.75.0</li>
+               <li>Use "grab" cursor on floating player to make it easier to tell you can drag it (community pr!)</li>
+               <li>Confirm age before viewing mature content on web</li>
+               <li>Pause thumbnail GIFs until hover</li>
             </ul>
             <p>Added:</p>
             <ul>
-              <li>Can now purchase LBC inside of the app (Makes use of MoonPay)</li>
-			  <li>Allow video sharing with start timestamp (community pr!)</li>
-			  <li>Expose upload status for publishes</li>
-			  <li>More tooltip help texts (community pr!)</li>
-			  <li>Add footer on web</li>
-			  <li>Support drag-and-drop file publishing (community pr!)</li>
-			  <li>Add advanced editor for comments (communirt pr!)</li>
-			  <li>Paid content improvements</li>
+               <li>Can now purchase LBC inside of the app (Makes use of MoonPay)</li>
+               <li>Allow video sharing with start timestamp (community pr!)</li>
+               <li>Expose upload status for publishes</li>
+               <li>More tooltip help texts (community pr!)</li>
+               <li>Add footer on web</li>
+               <li>Support drag-and-drop file publishing (community pr!)</li>
+               <li>Add advanced editor for comments (communirt pr!)</li>
+               <li>Paid content improvements</li>
             </ul>
-            </description>
-        </release>
-          <release date="2020-05-13" version="0.45.2">
-          <description>
+         </description>
+      </release>
+      <release date="2020-05-13" version="0.45.2">
+         <description>
             <p>Changed:</p>
             <ul>
-              <li>Updated lbry-sdk to 0.73.1</li>
+               <li>Updated lbry-sdk to 0.73.1</li>
             </ul>
-            </description>
-        </release>
+         </description>
+      </release>
       <release date="2020-05-06" version="0.45.1">
-          <description>
+         <description>
             <p>Fixed:</p>
             <ul>
-              <li>Better deleted text file handling - will now redownload the file</li>
-              <li>Fixed the title of the subscribe button getting out of sync on fast hover moments (community pr!)</li>
-              <li>Handle errors better on the creator analytics page and add a new card for stats on users most recent content</li>
-              <li>Add fallback when images fail to load (community pr!)</li>
-              <li>Fetch new content when clicking LBRY logo while on homepage (community pr!)</li>
-              <li>Aligns text across browsers and desktop (community pr!)</li>
+               <li>Better deleted text file handling - will now redownload the file</li>
+               <li>Fixed the title of the subscribe button getting out of sync on fast hover moments (community pr!)</li>
+               <li>Handle errors better on the creator analytics page and add a new card for stats on users most recent content</li>
+               <li>Add fallback when images fail to load (community pr!)</li>
+               <li>Fetch new content when clicking LBRY logo while on homepage (community pr!)</li>
+               <li>Aligns text across browsers and desktop (community pr!)</li>
             </ul>
             <p>Changed:</p>
             <ul>
-              <li>Updated lbry-sdk to 0.72.0</li>
-              <li>Show 'elapsed/total' instead of countdown timer on video player (community pr!)</li>
-              <li>Modified app strings about wallet backup, to emphasize the that the wallet also controls claims (community pr!)</li>
-              <li>Add confirmation when sending tip respecting @Purchase and Tip Confirmation@ (formerly "Purchase COnfirmation") setting, now visible in LBRY.tv (community pr!)</li>
+               <li>Updated lbry-sdk to 0.72.0</li>
+               <li>Show 'elapsed/total' instead of countdown timer on video player (community pr!)</li>
+               <li>Modified app strings about wallet backup, to emphasize the that the wallet also controls claims (community pr!)</li>
+               <li>Add confirmation when sending tip respecting @Purchase and Tip Confirmation@ (formerly "Purchase COnfirmation") setting, now visible in LBRY.tv (community pr!)</li>
             </ul>
             <p>Added:</p>
             <ul>
-              <li>Channel content preview on custom invite link page (community pr!)</li>
-              <li>Add Tooltips To Channel Action Buttons (community pr!)</li>
-              <li>Reenabled repost hiding with corresponding repost email suppression</li>
-              <li>Enabled embeds in markdown posts</li>
-              <li>Save media position in video viewer (community pr!)</li>
+               <li>Channel content preview on custom invite link page (community pr!)</li>
+               <li>Add Tooltips To Channel Action Buttons (community pr!)</li>
+               <li>Reenabled repost hiding with corresponding repost email suppression</li>
+               <li>Enabled embeds in markdown posts</li>
+               <li>Save media position in video viewer (community pr!)</li>
             </ul>
-            </description>
-        </release>
+         </description>
+      </release>
       <release date="2020-04-21" version="0.45.0">
-          <description>
+         <description>
             <p>Fixed:</p>
             <ul>
-              <li>Images were sometimes cut off depending on screen size (community pr!)</li>
-              <li>Error styling on repost modal</li>
-              <li>Fix glitchy "follow" button (community pr!)</li>
+               <li>Images were sometimes cut off depending on screen size (community pr!)</li>
+               <li>Error styling on repost modal</li>
+               <li>Fix glitchy "follow" button (community pr!)</li>
             </ul>
             <p>Changed:</p>
             <ul>
-              <li>Updated lbry-sdk to 0.69.1</li>
-              <li>Improved file page layout/styling</li>
-              <li>Now using GitHub for auto-update downloads</li>
-              <li>Now paginating wallet history using txo_list</li>
+               <li>Updated lbry-sdk to 0.69.1</li>
+               <li>Improved file page layout/styling</li>
+               <li>Now using GitHub for auto-update downloads</li>
+               <li>Now paginating wallet history using txo_list</li>
             </ul>
             <p>Added:</p>
             <ul>
-              <li>Password login with lbry.tv</li>
-              <li>Double confirmation to prevent accidentally deleting a channel</li>
-              <li>Button to unlock all tips for a claim</li>
+               <li>Password login with lbry.tv</li>
+               <li>Double confirmation to prevent accidentally deleting a channel</li>
+               <li>Button to unlock all tips for a claim</li>
             </ul>
-            </description>
-        </release>
-          <release date="2020-04-01" version="0.44.0">
-          <description>
-            <p>Fixed:</p>
-            <ul>
-              <li>Show proper error message when thumbnail upload fails.</li>
-              <li>Don't show reward verification screen again if you click "skip" when viewing it.</li>
-              <li>Don't sign out when clearing cache, restart app</li>
-              <li>Allow YouTubers with multiple channels to claim Sync reward</li>
-            </ul>
-            <p>Changed:</p>
-            <ul>
-              <li>Updated lbry-sdk to 0.67.2</li>
-              <li>Add sign out confirmation modal on desktop to explain potential sisues with signing into a new account</li>
-            </ul>
-            <p>Added:</p>
-            <ul>
-              <li>Optional video transcoding options on publish page</li>
-              <li>Tag selection on sign in</li>
-              <li>Revamped share content dialogue</li>
-              <li>Comment replies</li>
-              <li>Display repost count on file pages with link to all reposts of that claim</li>
-              <li>New creator analytics dashboard</li>
-              <li>Better confirmation before deleting channels</li>
-              <li>More claim information on file and channel pages</li>
-            </ul>
-            </description>
-        </release>
-          <release date="2020-03-11" version="0.43.4">
-          <description>
-            <p>Fixed:</p>
-            <ul>
-              <li>Links to list view weren't working on the homepage and channel discovery page</li>
-              <li>Valid URL handling in search bar</li>
-            </ul>
-            <p>Changed:</p>
-            <ul>
-              <li>Temporarily disabled lbry-format apps over security concerns</li>
-            </ul>
-            </description>
-        </release>
-          <release date="2020-03-06" version="0.43.3">
-          <description>
-            <p>Fixed:</p>
-            <ul>
-              <li>Some posted comments showing up as anonymous</li>
-              <li>Back/foward navigation on Desktop app</li>
-            </ul>
-            <p>Added:</p>
-            <ul>
-              <li>New/Top/Trending options on channel pages</li>
-              <li>Encourage following channles through new discovery page on sign in</li>
-              <li>Warnings about incompatible video format and high bitrates</li>
-              <li>Czech and Kannada langauge support</li>
-            </ul>
-            <p>Changed:</p>
-            <ul>
-              <li>Default channel bid to 0.01 LBC and improve publish page warnings with insufficient credits</li>
-              <li>Publish page - limit # of tags, improve wording on tag selection</li>
-              <li>Upgrade Electron-builder and updated to latest version to support libcurl changes</li>
-              <li>Upgrade LBRY-SDK to 0.63. to fix Windows UPNP issues</li>
-            </ul>
-            </description>
-        </release>
-          <release date="2020-02-26" version="0.43.2">
-            <description>
-            <p>Fixed:</p>
-            <ul>
-              <li>Fix for people who synced invalid preference data</li>
-            </ul>
-            </description>
-          </release>
-          <release date="2020-02-25" version="0.43.0">
-          <description>
-            <p>Fixed:</p>
-            <ul>
-              <li>Download all transactions when exporting from transaction table</li>
-            </ul>
-            <p>Added:</p>
-            <ul>
-              <li>New welcome screen, no-tracking default desktop</li>
-              <li>New bottom banner on lbry.tv communicating data policies</li>
-              <li>Right click to navigate history on desktop</li>
-              <li>Javanese language support</li>
-              <li>Wallet sync status on the wallet page</li>
-              <li>Channel discovery page</li>
-            </ul>
-            <p>Changed:</p>
-            <ul>
-              <li>Updated lbry-sdk to 0.61.0</li>
-              <li>Drops support for publishing anonymous comments</li>
-              <li>Don't remember past repost bid amount</li>
-            </ul>
-            </description>
-        </release>
-          <release date="2020-02-14" version="0.42.0">
-          <description>
-            <p>Fixed:</p>
-            <ul>
-              <li>Always navigate backwards after deleting and abandoning a claim</li>
-            </ul>
-            <p>Added:</p>
-            <ul>
-              <li>Ability to repost claims</li>
-              <li>New page for top claims for a specific claim name</li>
-              <li>Language support for Danish, Romanian, and Urdu</li>
-              <li>Ability to unfollow abandonded channels</li>
-            </ul>
-            <p>Changed:</p>
-            <ul>
-              <li>Updated lbry-sdk to 0.59.2</li>
-              <li>Improvements to text file layouts</li>
-            </ul>
-            </description>
-        </release>
-     <release date="2020-02-05" version="0.41.0">
-          <description>
-            <p>Fixed:</p>
-            <ul>
-              <li>Channels re-appearing between synced devices</li>
-              <li>Prevent spacebar from toggling fullscreen on Firefox</li>
-              <li>Context menu not working properly in some cases</li>
-              <li>Don't autoplay paid content or content fro blocked channels.</li>
-            </ul>
-            <p>Added:</p>
-            <ul>
-              <li>Basic display of reposts</li>
-              <li>File type and content length icons</li>
-              <li>Donwload buttons on file previews</li>
-              <li>Comment edit and delete</li>
-              <li>Autoplay countdown timer</li>
-              <li>Ability to unfollow channels that have been abandonded</li>
-            </ul>
-            <p>Changed:</p>
-            <ul>
-              <li>Improved embed links on share page</li>
-              <li>Improved search and related content if mature setting enabled</li>
-              <li>Library moved to sidebar</li>
-              <li>Better aria-labels for use with voiceover apps</li>
-            </ul>
-            </description>
-        </release>
-     <release date="2019-01-24" version="0.39.1">
-          <description>
-            <p>Fixed:</p>
-            <ul>
-              <li>Home page tiles not loading in some cases</li>
-            </ul>
-            <p>Added:</p>
-            <ul>
-              <li>Analytics event for video buffering for easier debugging</li>
-            </ul>
-            </description>
-        </release>
-     <release date="2019-01-22" version="0.39.0">
-          <description>
-            <p>Fixed:</p>
-            <ul>
-              <li>Don't show edit screen for other channels</li>
-              <li>Clear publish form when clicking "New Publish"</li>
-              <li>Hide cursor on fullscreen videos</li>
-              <li>Force colour profile to render correct colours</li>
-              <li>Video viewer not resizing properly</li>
-              <li>Don't reset publish language to app language</li>
-              <li>Same file wasn't able to be reselected on publish after clearing the publish screen</li>
-              <li>Make sure results on channel page don't return content from other channels</li>
-            </ul>
-            <p>Added:</p>
-            <ul>
-              <li>New homepage design</li>
-              <li>Revamped invites system</li>
-              <li>Appimage support</li>
-              <li>Better layout for viewing text files</li>
-              <li>Show file as thumbnail for free imgage claims</li>
-            </ul>
-            <p>Changed:</p>
-            <ul>
-              <li>Navigation redesign</li>
-              <li>Move away from keychain and into a cookie for authentication</li>
-              <li>Updated lbry-sdk to 0.54.1 for faster wallet syncing and improved stability</li>
-            </ul>
-            </description>
-        </release>
-         <release date="2019-12-21" version="0.38.2">
-          <description>
-            <p>Fixed:</p>
-            <ul>
-              <li>Always sync preferences on startup</li>
-              <li>App no longer crashes on edits in some cases</li>
-              <li>Sign in will no longer get stuck</li>
-            </ul>
-            </description>
-        </release>
-    <release date="2019-12-20" version="0.38.0">
-          <description>
-            <p>Fixed:</p>
-            <ul>
-              <li>Claim name changes on edits when reselecting a file</li>
-              <li>Crash when using localized settings on some machines</li>
-              <li>Crash on some old files without proper price</li>
-              <li>Don't filter own blocked/filtered content</li>
-              <li>Read preferences from wallet if not logged in</li>
-              <li>Balance checking on edits, check minimum</li>
-              <li>Message when no tags are selected</li>
-            </ul>
-            <p>Added:</p>
-            <ul>
-              <li>More languages; Dutch, Portugeese, Italian, Russian, Spanish, Gujarati, Hindi, Malay, Marathi, Panjabi, and Swedish</li>
-              <li>Dedicated Channel Creation page</li>
-              <li>Ability to use custom wallet servers</li>
-              <li>Autoplay free text files</li>
-              <li>Show thumbnail while playing audio files</li>
-              <li>Loading state for channels and publishes page</li>
-              <li>Channel thumbnails next to comments</li>
-            </ul>
-            <p>Changed:</p>
-            <ul>
-              <li>Better dark mode and minor design tweaks throughout the application</li>
-              <li>Updated lbry-sdk to 0.50.1</li>
-              <li>Always round down dates on claim previews for better youtube parity</li>
-              <li>Removed external link warning </li>
-              <li>Always show pause button when video is paused</li>
-            </ul>
-            </description>
-        </release>
-         <release date="2019-11-21" version="0.37.2">
-          <description>
-            <p>Fixed:</p>
-            <ul>
-              <li>Channel pages not showing any page numbers</li>
-              <li>Context menu does not open in the webapp when right-clicking video titles</li>
-              <li>Undefined tags prevents homepage from loading</li>
-            </ul>
-            <p>Added:</p>
-            <ul>
-              <li>Setting to start the app minimized when you login (Linux/Windows only)</li>
-              <li>Search on downloads page</li>
-              <li>Clear support state when clearing cache in settings</li>
-              <li>Allow disabling app updates for some Linux based builds</li>
-              <li>Add French, Turkish, Slovak, and Chinese language support and improved how we are loading languages</li>
-            </ul>
-            <p>Changed:</p>
-            <ul>
-              <li>Updated lbry-sdk to 0.46.1. Larger wallets make take longer to startup initially due to a resync, thanks for your patience.</li>
-              <li>Optimized SDK calls for faster app startup and performance</li>
-            </ul>
-            </description>
-        </release>
-        <release date="2019-10-22" version="0.37.1">
-          <description>
-            <p>Fixed:</p>
-            <ul>
-              <li>Wallet unlocking for YouTube Sync users with encrypted wallets</li>
-              <li>Syncing with no password when account first created on LBRY Android</li>
-              <li>Only show channel search bar on the content tab</li>
-            </ul>
-            <p>Changed:</p>
-            <ul>
-              <li>Upgrade to LBRY SDK 0.43.3 to support above scenarios</li>
-            </ul>
-            </description>
-        </release>
-        <release date="2019-10-18" version="0.37.0">
-          <description>
-            <p>Fixed:</p>
-            <ul>
-              <li>Escape the generated link for tags.</li>
-              <li>Toggle fullscreen when pressing f</li>
-              <li>Can't exist full-screen from embedded content with key F11</li>
-              <li>Markdown rendering issues with LBRY URLs and channel mentions</li>
-              <li>Incorrect styles of tooltip on dark theme</li>
-              <li>Code tag not formatting content on markdown preview</li>
-              <li>Customize option re-appearing after publishing/editing content</li>
-              <li>Missing tooltip on channel mention</li>
-              <li>Fix gap between video player and background</li>
-              <li>Don't allow price to change from scrollwheel</li>
-            </ul>
-            <p>Added:</p>
-            <ul>
-              <li>Unified experience across devices, installs, and computers (Wallet syncing for existing users and Subscription, tag, and blocked channels now write to the wallet file)</li>
-              <li>Comments on channel pages under Discussion tab</li>
-              <li>Keyboard shortcuts for the following actions (RIGHT arrow To seek forward LEFT arrow to seek backward f for going fullscreen m for mute/unmute)</li>
-              <li>Ability to add multiple tags at once with commas</li>
-              <li>Keyboard shortcuts to toggle fullscreen - f or F11 to toggle player fullscreen mode</li>
-              <li>Markdown preview for comments (Basic text formatting like bold, italic and strike, LBRY URLs preview and channel mentions, implement URL embedding in comments, Code blocks, inline code, and blockquotes, and embed images and gifs)</li>
-            </ul>
-            <p>Changed:</p>
-            <ul>
-              <li>Eliminated redundant upgrade modal</li>
-              <li>Upgarded LBRY SDK to 0.43.2 to support existing user wallet syncing and ability to sync/save subscriptions, tags, and preferences to wallet file</li>
-              <li>GIFs now only animate when hovered over</li>
-              <li>Subscription automatic downloads disabled (no longer in Settings)</li>
-            </ul>
-            </description>
-        </release>
-        <release date="2019-10-11" version="0.36.1">
-          <description>
-            <p>Fixed:</p>
-            <ul>
-              <li>LBRY.tv share URL missing a slash, preventing opening on web.</li>
-            </ul>
-            <p>Added:</p>
-            <ul>
-              <li>Notarized Mac OSX installer to support the Catalina upgrade</li>
-            </ul>
-          </description>
+         </description>
       </release>
-        <release date="2019-10-4" version="0.36.0">
-          <description>
+      <release date="2020-04-01" version="0.44.0">
+         <description>
             <p>Fixed:</p>
             <ul>
-              <li>Not being able to abandon claims not which weren't downloaded</li>
-              <li>Duration not showing for audio</li>
-            </ul>
-            <p>Added:</p>
-            <ul>
-              <li>Channels page above Publishes which lists all your channels</li>
-              <li>YouTube channel claiming and transfer.</li>
-              <li>New user sign in flow now includes automatic redeeming of 1 LBC and channel creation</li>
-              <li>Ability to save wallet encryption password</li>
-              <li>Sync your balance (only for users with new wallets) and preferences (subscriptions and tags) between devices.</li>
-              <li>Max character count on comments</li>
-              <li>Subscription and file view counts</li>
-              <li>Pagination on Library, Publishes, and Transactions pages</li>
-              <li>Volume setting is now saved between videos</li>
-              <li>Granular balance information on wallet page - includes LBC locked in tips/claims/supports</li>
-              <li>Acknolwedgement of T.O.S and age verification on sign in.</li>
+               <li>Show proper error message when thumbnail upload fails.</li>
+               <li>Don't show reward verification screen again if you click "skip" when viewing it.</li>
+               <li>Don't sign out when clearing cache, restart app</li>
+               <li>Allow YouTubers with multiple channels to claim Sync reward</li>
             </ul>
             <p>Changed:</p>
             <ul>
-              <li>Upgrade LBRY SDK to 0.42.1 to improve overall connectivity</li>
-              <li>Sign out now clears the email address and refreshes the app</li>
-              <li>Language strings are now pulled dynamically instead of requiring new app releases for better language support</li>
-              <li>Minor design improvements to styles and cards</li>
+               <li>Updated lbry-sdk to 0.67.2</li>
+               <li>Add sign out confirmation modal on desktop to explain potential sisues with signing into a new account</li>
             </ul>
-          </description>
+            <p>Added:</p>
+            <ul>
+               <li>Optional video transcoding options on publish page</li>
+               <li>Tag selection on sign in</li>
+               <li>Revamped share content dialogue</li>
+               <li>Comment replies</li>
+               <li>Display repost count on file pages with link to all reposts of that claim</li>
+               <li>New creator analytics dashboard</li>
+               <li>Better confirmation before deleting channels</li>
+               <li>More claim information on file and channel pages</li>
+            </ul>
+         </description>
       </release>
-        <release date="2019-09-4" version="0.35.3">
-          <description>
+      <release date="2020-03-11" version="0.43.4">
+         <description>
             <p>Fixed:</p>
             <ul>
-              <li>Canonical URL bugs on home and channel pages</li>
-              <li>Crash when clicking a channel in "Find New Channels"</li>
-              <li>SVG and LBRY files types not showing correctly</li>
-              <li>Channel not re-selected on edit</li>
-              <li>Command + A support on macOS to select all text in an input</li>
-              <li>Search bar getting stuck in focus</li>
-            </ul>
-            <p>Added:</p>
-            <ul>
-              <li>Allow easy thumbnail upload with video on file edits</li>
-              <li>Better message for unsupported file types</li>
-              <li>Support for daily reward (not live yet)</li>
+               <li>Links to list view weren't working on the homepage and channel discovery page</li>
+               <li>Valid URL handling in search bar</li>
             </ul>
             <p>Changed:</p>
             <ul>
-              <li>Upgraded lbry-sdk to 0.40.0 to improve wallet syncing and overall connectivity</li>
+               <li>Temporarily disabled lbry-format apps over security concerns</li>
             </ul>
-          </description>
+         </description>
       </release>
-    <release date="2019-08-30" version="0.35.2">
-          <description>
+      <release date="2020-03-06" version="0.43.3">
+         <description>
             <p>Fixed:</p>
             <ul>
-              <li>Don't show block button on your own channel</li>
-              <li>App crash when automatically playing content originally priced in USD</li>
-              <li>Bid amount required on publish page</li>
-              <li>Fixed subscription auto downloads</li>
-              <li>Crash qith query strings</li>
-              <li>Autoplay on paid content</li>
+               <li>Some posted comments showing up as anonymous</li>
+               <li>Back/foward navigation on Desktop app</li>
             </ul>
             <p>Added:</p>
             <ul>
-              <li>Tips and supports on channel pages</li>
-              <li>Choose when you want automatic dark mode to take effect</li>
+               <li>New/Top/Trending options on channel pages</li>
+               <li>Encourage following channles through new discovery page on sign in</li>
+               <li>Warnings about incompatible video format and high bitrates</li>
+               <li>Czech and Kannada langauge support</li>
             </ul>
             <p>Changed:</p>
             <ul>
-              <li>URL format to include both channel and claim short IDs</li>
-              <li>Upgraded lbry-sdk to 0.39.0</li>
-              <li>Upgraded Windows certificate so builds continue to be signed properly</li>
-              <li>DMCA blocking to include channels</li>
+               <li>Default channel bid to 0.01 LBC and improve publish page warnings with insufficient credits</li>
+               <li>Publish page - limit # of tags, improve wording on tag selection</li>
+               <li>Upgrade Electron-builder and updated to latest version to support libcurl changes</li>
+               <li>Upgrade LBRY-SDK to 0.63. to fix Windows UPNP issues</li>
             </ul>
-          </description>
+         </description>
+      </release>
+      <release date="2020-02-26" version="0.43.2">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Fix for people who synced invalid preference data</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2020-02-25" version="0.43.0">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Download all transactions when exporting from transaction table</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>New welcome screen, no-tracking default desktop</li>
+               <li>New bottom banner on lbry.tv communicating data policies</li>
+               <li>Right click to navigate history on desktop</li>
+               <li>Javanese language support</li>
+               <li>Wallet sync status on the wallet page</li>
+               <li>Channel discovery page</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Updated lbry-sdk to 0.61.0</li>
+               <li>Drops support for publishing anonymous comments</li>
+               <li>Don't remember past repost bid amount</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2020-02-14" version="0.42.0">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Always navigate backwards after deleting and abandoning a claim</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>Ability to repost claims</li>
+               <li>New page for top claims for a specific claim name</li>
+               <li>Language support for Danish, Romanian, and Urdu</li>
+               <li>Ability to unfollow abandonded channels</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Updated lbry-sdk to 0.59.2</li>
+               <li>Improvements to text file layouts</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2020-02-05" version="0.41.0">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Channels re-appearing between synced devices</li>
+               <li>Prevent spacebar from toggling fullscreen on Firefox</li>
+               <li>Context menu not working properly in some cases</li>
+               <li>Don't autoplay paid content or content fro blocked channels.</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>Basic display of reposts</li>
+               <li>File type and content length icons</li>
+               <li>Donwload buttons on file previews</li>
+               <li>Comment edit and delete</li>
+               <li>Autoplay countdown timer</li>
+               <li>Ability to unfollow channels that have been abandonded</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Improved embed links on share page</li>
+               <li>Improved search and related content if mature setting enabled</li>
+               <li>Library moved to sidebar</li>
+               <li>Better aria-labels for use with voiceover apps</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2019-01-24" version="0.39.1">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Home page tiles not loading in some cases</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>Analytics event for video buffering for easier debugging</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2019-01-22" version="0.39.0">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Don't show edit screen for other channels</li>
+               <li>Clear publish form when clicking "New Publish"</li>
+               <li>Hide cursor on fullscreen videos</li>
+               <li>Force colour profile to render correct colours</li>
+               <li>Video viewer not resizing properly</li>
+               <li>Don't reset publish language to app language</li>
+               <li>Same file wasn't able to be reselected on publish after clearing the publish screen</li>
+               <li>Make sure results on channel page don't return content from other channels</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>New homepage design</li>
+               <li>Revamped invites system</li>
+               <li>Appimage support</li>
+               <li>Better layout for viewing text files</li>
+               <li>Show file as thumbnail for free imgage claims</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Navigation redesign</li>
+               <li>Move away from keychain and into a cookie for authentication</li>
+               <li>Updated lbry-sdk to 0.54.1 for faster wallet syncing and improved stability</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2019-12-21" version="0.38.2">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Always sync preferences on startup</li>
+               <li>App no longer crashes on edits in some cases</li>
+               <li>Sign in will no longer get stuck</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2019-12-20" version="0.38.0">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Claim name changes on edits when reselecting a file</li>
+               <li>Crash when using localized settings on some machines</li>
+               <li>Crash on some old files without proper price</li>
+               <li>Don't filter own blocked/filtered content</li>
+               <li>Read preferences from wallet if not logged in</li>
+               <li>Balance checking on edits, check minimum</li>
+               <li>Message when no tags are selected</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>More languages; Dutch, Portugeese, Italian, Russian, Spanish, Gujarati, Hindi, Malay, Marathi, Panjabi, and Swedish</li>
+               <li>Dedicated Channel Creation page</li>
+               <li>Ability to use custom wallet servers</li>
+               <li>Autoplay free text files</li>
+               <li>Show thumbnail while playing audio files</li>
+               <li>Loading state for channels and publishes page</li>
+               <li>Channel thumbnails next to comments</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Better dark mode and minor design tweaks throughout the application</li>
+               <li>Updated lbry-sdk to 0.50.1</li>
+               <li>Always round down dates on claim previews for better youtube parity</li>
+               <li>Removed external link warning</li>
+               <li>Always show pause button when video is paused</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2019-11-21" version="0.37.2">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Channel pages not showing any page numbers</li>
+               <li>Context menu does not open in the webapp when right-clicking video titles</li>
+               <li>Undefined tags prevents homepage from loading</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>Setting to start the app minimized when you login (Linux/Windows only)</li>
+               <li>Search on downloads page</li>
+               <li>Clear support state when clearing cache in settings</li>
+               <li>Allow disabling app updates for some Linux based builds</li>
+               <li>Add French, Turkish, Slovak, and Chinese language support and improved how we are loading languages</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Updated lbry-sdk to 0.46.1. Larger wallets make take longer to startup initially due to a resync, thanks for your patience.</li>
+               <li>Optimized SDK calls for faster app startup and performance</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2019-10-22" version="0.37.1">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Wallet unlocking for YouTube Sync users with encrypted wallets</li>
+               <li>Syncing with no password when account first created on LBRY Android</li>
+               <li>Only show channel search bar on the content tab</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Upgrade to LBRY SDK 0.43.3 to support above scenarios</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2019-10-18" version="0.37.0">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Escape the generated link for tags.</li>
+               <li>Toggle fullscreen when pressing f</li>
+               <li>Can't exist full-screen from embedded content with key F11</li>
+               <li>Markdown rendering issues with LBRY URLs and channel mentions</li>
+               <li>Incorrect styles of tooltip on dark theme</li>
+               <li>Code tag not formatting content on markdown preview</li>
+               <li>Customize option re-appearing after publishing/editing content</li>
+               <li>Missing tooltip on channel mention</li>
+               <li>Fix gap between video player and background</li>
+               <li>Don't allow price to change from scrollwheel</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>Unified experience across devices, installs, and computers (Wallet syncing for existing users and Subscription, tag, and blocked channels now write to the wallet file)</li>
+               <li>Comments on channel pages under Discussion tab</li>
+               <li>Keyboard shortcuts for the following actions (RIGHT arrow To seek forward LEFT arrow to seek backward f for going fullscreen m for mute/unmute)</li>
+               <li>Ability to add multiple tags at once with commas</li>
+               <li>Keyboard shortcuts to toggle fullscreen - f or F11 to toggle player fullscreen mode</li>
+               <li>Markdown preview for comments (Basic text formatting like bold, italic and strike, LBRY URLs preview and channel mentions, implement URL embedding in comments, Code blocks, inline code, and blockquotes, and embed images and gifs)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Eliminated redundant upgrade modal</li>
+               <li>Upgarded LBRY SDK to 0.43.2 to support existing user wallet syncing and ability to sync/save subscriptions, tags, and preferences to wallet file</li>
+               <li>GIFs now only animate when hovered over</li>
+               <li>Subscription automatic downloads disabled (no longer in Settings)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2019-10-11" version="0.36.1">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>LBRY.tv share URL missing a slash, preventing opening on web.</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>Notarized Mac OSX installer to support the Catalina upgrade</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2019-10-4" version="0.36.0">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Not being able to abandon claims not which weren't downloaded</li>
+               <li>Duration not showing for audio</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>Channels page above Publishes which lists all your channels</li>
+               <li>YouTube channel claiming and transfer.</li>
+               <li>New user sign in flow now includes automatic redeeming of 1 LBC and channel creation</li>
+               <li>Ability to save wallet encryption password</li>
+               <li>Sync your balance (only for users with new wallets) and preferences (subscriptions and tags) between devices.</li>
+               <li>Max character count on comments</li>
+               <li>Subscription and file view counts</li>
+               <li>Pagination on Library, Publishes, and Transactions pages</li>
+               <li>Volume setting is now saved between videos</li>
+               <li>Granular balance information on wallet page - includes LBC locked in tips/claims/supports</li>
+               <li>Acknolwedgement of T.O.S and age verification on sign in.</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Upgrade LBRY SDK to 0.42.1 to improve overall connectivity</li>
+               <li>Sign out now clears the email address and refreshes the app</li>
+               <li>Language strings are now pulled dynamically instead of requiring new app releases for better language support</li>
+               <li>Minor design improvements to styles and cards</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2019-09-4" version="0.35.3">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Canonical URL bugs on home and channel pages</li>
+               <li>Crash when clicking a channel in "Find New Channels"</li>
+               <li>SVG and LBRY files types not showing correctly</li>
+               <li>Channel not re-selected on edit</li>
+               <li>Command + A support on macOS to select all text in an input</li>
+               <li>Search bar getting stuck in focus</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>Allow easy thumbnail upload with video on file edits</li>
+               <li>Better message for unsupported file types</li>
+               <li>Support for daily reward (not live yet)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Upgraded lbry-sdk to 0.40.0 to improve wallet syncing and overall connectivity</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2019-08-30" version="0.35.2">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Don't show block button on your own channel</li>
+               <li>App crash when automatically playing content originally priced in USD</li>
+               <li>Bid amount required on publish page</li>
+               <li>Fixed subscription auto downloads</li>
+               <li>Crash qith query strings</li>
+               <li>Autoplay on paid content</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>Tips and supports on channel pages</li>
+               <li>Choose when you want automatic dark mode to take effect</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>URL format to include both channel and claim short IDs</li>
+               <li>Upgraded lbry-sdk to 0.39.0</li>
+               <li>Upgraded Windows certificate so builds continue to be signed properly</li>
+               <li>DMCA blocking to include channels</li>
+            </ul>
+         </description>
       </release>
       <release date="2019-08-16" version="0.35.1">
-          <description>
-              <p>Fixed:</p>
-              <ul>
-                <li>Uploading thumbnails to spee.ch was broken in the previous version</li>
-              </ul>
-          </description>
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Uploading thumbnails to spee.ch was broken in the previous version</li>
+            </ul>
+         </description>
       </release>
       <release date="2019-08-15" version="0.35.0">
-          <description>
-              <p>Fixed:</p>
-              <ul>
-                <li>Add startup status back to the splash screen</li>
-                <li>Ensure 'mature' tag is always visible on claim previews for mature content</li>
-                <li>Editing claim always re-uploading a new file</li>
-                <li>Publish to LBRY button on unclaimed URLs</li>
-                <li>Claim preview for lbry URLs in description</li>
-              </ul>
-              <p>Added:</p>
-              <ul>
-                <li>Brand new video player</li>
-                <li>Uses range of requests which vastly improves seeking and somewhat improves time to stream start</li>
-                <li>Better support vidoe and audio types</li>
-                <li>Variable playback speed</li>
-                <li>Volume control is back</li>
-                <li>Pop out player allows continued browsing while watching content</li>
-                <li>Ability to block channels</li>
-                <li>Table styling on publish pages</li>
-                <li>Option to disable startup animation</li>
-                <li>Suggest channels in "Channels you follow" if none are followed</li>
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Add startup status back to the splash screen</li>
+               <li>Ensure 'mature' tag is always visible on claim previews for mature content</li>
+               <li>Editing claim always re-uploading a new file</li>
+               <li>Publish to LBRY button on unclaimed URLs</li>
+               <li>Claim preview for lbry URLs in description</li>
             </ul>
-        </description>
-    </release>
+            <p>Added:</p>
+            <ul>
+               <li>Brand new video player</li>
+               <li>Uses range of requests which vastly improves seeking and somewhat improves time to stream start</li>
+               <li>Better support vidoe and audio types</li>
+               <li>Variable playback speed</li>
+               <li>Volume control is back</li>
+               <li>Pop out player allows continued browsing while watching content</li>
+               <li>Ability to block channels</li>
+               <li>Table styling on publish pages</li>
+               <li>Option to disable startup animation</li>
+               <li>Suggest channels in "Channels you follow" if none are followed</li>
+            </ul>
+         </description>
+      </release>
       <release date="2019-06-19" version="0.33.2">
-          <description>
-              <p>Fixed:</p>
-              <ul>
-                  <li>Download and announce issues on popular content via LBRY SDK patch</li>
-              </ul>
-          </description>
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Download and announce issues on popular content via LBRY SDK patch</li>
+            </ul>
+         </description>
       </release>
       <release date="2019-06-15" version="0.33.1">
-          <description>
-              <p>Fixed:</p>
-              <ul>
-                  <li>Reflector bugs on failed attempts and improve wallet connection with LBRY SDK patch</li>
-              </ul>
-          </description>
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Reflector bugs on failed attempts and improve wallet connection with LBRY SDK patch</li>
+            </ul>
+         </description>
       </release>
       <release date="2019-05-04" version="0.33.0">
-          <description>
-
-              <p>Fixed:</p>
-              <ul>
-                  <li>Channel page styling (#2520)</li>
-              </ul>
-              <p>Added:</p>
-              <ul>
-                  <li>Comic book reader (#2484)</li>
-                  <li>Base functionality for more language support (#2495)</li>
-                  <li>Add easy thumbnail selector for videos (#2492)</li>
-                  <li>Add warning before opening external file (#2478)</li>
-              </ul>
-          </description>
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Channel page styling (#2520)</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>Comic book reader (#2484)</li>
+               <li>Base functionality for more language support (#2495)</li>
+               <li>Add easy thumbnail selector for videos (#2492)</li>
+               <li>Add warning before opening external file (#2478)</li>
+            </ul>
+         </description>
       </release>
-    <release date="2019-03-21" version="0.31.1">
-      <description>
-        <p>Fixed:</p>
-        <ul>
-          <li>Long links not wrappng on claim pages (70df697)</li>
-        </ul>
-      </description>
-    </release>    
-    <release date="2019-03-21" version="0.30.0">
-      <description>
-        <p>Added:</p>
-        <ul>
-          <li>Report errors to slack for easier debugging</li>
-          <li>Add viewcount stats to your published content</li>
-        </ul>
-        <p>Changed:</p>
-        <ul>
-          <li>Upgrade LBRY SDK to 0.34.0 to support better analytics and faster file starup</li>
-          <li>Minor changes for normalisation hardfork</li>
-          <li>New build setup to support lbry.tv</li>
-          <li>Upgrade Electron and Electron builder to the latest version, including intial differential upgrade support for Windows</li>
-          <li>lbry.io > lbry.com</li>
-        </ul>
-        <p>Fixed:</p>
-        <ul>
-          <li>Incorrect snackbar messaging when attempting to navigate to a malformed claim name.</li>
-        </ul>
-      </description>
-    </release>    
-    <release date="2019-03-12" version="0.29.4">
-      <description>
-        <p>Changes:</p>
-        <ul>
-          <li>Fixed an issue regarding a white screen on some videos using the autoplay feature.</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2019-03-07" version="0.29.3">
-      <description>
-        <p>Changes:</p>
-        <ul>
-          <li>Fixed and issue regarding balance display issue when you have 0 LBC.</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2019-02-21" version="0.29.1">
-      <description>
-        <p>Added:</p>
-        <ul>
-          <li>Referral link next to email input on Invite screen(#2287)</li>
-          <li>Simple search filter and feedback options (#2282)</li>
-          <li>Broken heart icon for unsubscribe (#2272)</li>
-        </ul>
-        <p>Changed:</p>
-        <ul>
-          <li>Upgrade LBRY SDK to 0.32.3 for improved download performance. See 0.31 for other changes since last app release.</li>
-          <li>Styling changes to unify components across projects (#2279)</li>
-        </ul>
-        <p>Fixed:</p>
-        <ul>
-          <li>Inverse button readability on hover (#2271)</li>
-          <li>Shutdown on app close (#2283)</li>
-          <li>Startup on GitHub version check failure (#1744)</li>
-          <li>SDK detection when running manually (#2258)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2019-02-05" version="0.28.0">
-      <description>
-        <p>Changes:</p>
-        <ul>
-          <li>The invite screen revamp and LBC amount/limit increase (20LBC / 10 referrals). You'll be able to claim it via a button in 1 swoop vs claiming 1 by 1.</li>
-          <li>First run screen is less intrusive - no popup, email collection to happen in the row above featured content.</li>
-          <li>More dynamic loading of content on the home page - faster first run, but content is loaded as you scroll down.</li>
-          <li>Auto play next recommended video as an experimental setting</li>
-          <li>Games support - check out - lbry://@OpenSourceGames</li>
-          <li>Mouse back/forward navigation on Windows</li>
-          <li>Menu changes (Downloads/Publishes are no longer under My LBRY)</li>
-          <li>Redeem a special early upgrade reward with code "lbry-028"</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2019-01-22" version="0.27.1">
-      <description>
-        <p>Fixed:</p>
-        <ul>
-          <li>Channel name overlap on homepage when screen size is small</li>
-          <li>Spacing issue/typo on email collection modal</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2019-01-15" version="0.27.0">
-      <description>
-        <p>Added:</p>
-        <ul>
-          <li>Auto email confirmation (#2169)</li>
-        </ul>
-        <p>Changed:</p>
-        <ul>
-          <li>App redesign with shared colors component (#2144)</li>
-          <li>Upgraded LBRY SDK 0.30.4 to improve network stability</li>
-        </ul>
-        <p>Fixed:</p>
-        <ul>
-          <li>Show delete button on users own claims (#2147)</li>
-          <li>Fix "copy" icon being cutoff for some users (2167)</li>
-          <li>Use correct url when copying vanity addresses (#2168)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2018-12-14" version="0.26.1">
-      <description>
-        <p>Fixed:</p>
-        <ul>
-          <li>Channel subscribe button on search page (#2146)</li>
-          <li>Close modal after redeeming reward code (#2146)</li>
-          <li>Update Electron to prevent segfault on Ubuntu@18.10 (#2146)</li>
-          <li>Show reward code modal when all rewards are claimed (#2146)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2018-12-11" version="0.26.0">
-      <description>
-        <p>Added:</p>
-        <ul>
-          <li>Redemption of custom reward codes via Rewards page (#1935)</li>
-          <li>Ability to manage email preferences from Help page (#1929)</li>
-          <li>History tracking to My LBRY menu (#1846)</li>
-          <li>Gather data for comments support via claim page (#2095)</li>
-          <li>Allow typing of encryption password without clicking entry box (#1977)</li>
-          <li>Focus on search bar with {cmd,ctrl} + l; (#2003)</li>
-          <li>Support for clickable channel names on explore page headings (#2023)</li>
-          <li>Relative time and loading placeholder styles on FileCard/FileTile (#2022)</li>
-          <li>Persistence to Transaction List Filter Selection (#2048)</li>
-          <li>Subscription improvements (#2031)</li>
-          <li>Persistence to File List Filter Selections (#2050)</li>
-          <li>More share options for claim and channel pages (#2088 / #1943)</li>
-          <li>Better error handling on app startup (#2098)</li>
-          <li>FAQ and links in Report page (#2103)</li>
-        </ul>
-        <p>Changed:</p>
-        <ul>
-          <li>Upgraded to lbrynet v0.30.0 (#1998)</li>
-          <li>Make tooltip smarter, show full title on hover (#1979)</li>
-          <li>Channel pages to have 20 items instead of 10 (#2002)</li>
-          <li>External links to https (#2016)</li>
-          <li>Simplify FileCard and FileTile component styling (#2011)</li>
-          <li>Credit card verification messaging (#2025)</li>
-          <li>Reverse Order &amp; Use System/Location Time/Date (#2036)</li>
-          <li>Limit file type can be uploaded as thumbnail for publishing (#2034)</li>
-          <li>Change snackbar notification position to bottom-left (#2040)</li>
-          <li>Use shared colors from lbryio/color project (#2045)</li>
-          <li>Remove ToS checkbox (#2087)</li>
-        </ul>
-        <p>Fixed:</p>
-        <ul>
-          <li>Show pending transactions on Overview page, with refresh button (#2085)</li>
-          <li>Copyright license not being displayed correctly during edits (#1997)</li>
-          <li>Transactions filter menu collides with transaction table (#2005)</li>
-          <li>Invite table cutoff with large number of invites (#1985)</li>
-          <li>History styling on large screens and link issue with claims (#1999)</li>
-          <li>Satisfy console warnings in publishForm and validation messaging (#2010)</li>
-          <li>App crashing if invalid characters entered in LBRY URL (#2026)</li>
-          <li>File_list call continues indefinitely if a file is removed while downloading (#2042)</li>
-          <li>Open folder containing log file when Open Log File button is clicked (#2078)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2018-09-19" version="0.25.1">
-      <description>
-        <p>Fixed:</p>
-        <ul>
-          <li>Ensure we record views for downloaded content from subscriptions and autoplay (#1962)</li>
-          <li>Paragraph rendering now properly includes a margin for new paragraphs (#1939)</li>
-          <li>Alignment of "navigate to page" input next to pagination on channel pages (#1941)</li>
-          <li>Table spacing with claim name in transactions table (#1942)</li>
-          <li>Ability to click away from tip screen without the cancel button (#1944)</li>
-          <li>Disallow invalid tip amounts (#1947)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2018-08-29" version="0.25.0">
-      <description>
-        <p>LBRY Bradbury Release</p>
-        <p>Added:</p>
-        <ul>
-          <li>Wallet encryption/decryption user flows in settings (#1785)</li>
-          <li>Suggestions for recommended content on file page (#1845)</li>
-          <li>Auto download setting for subscriptions (#1898)</li>
-          <li>Ability to disable desktop notifications (#1834)</li>
-          <li>Better preview for content (#620)</li>
-          <li>New markdown and docx viewer (#1826)</li>
-          <li>New viewer for human-readable text files (#1826)</li>
-          <li>CSV and JSON viewer (#1410)</li>
-          <li>3D File viewer features and performance/memory usage improvements (#1870)</li>
-          <li>Desktop notification when publish is completed (#1892)</li>
-          <li>FAQ to Publishing Area (#1833)</li>
-          <li>FAQ to wallet security area (#1917)</li>
-        </ul>
-        <p>Changed:</p>
-        <ul>
-          <li>Upgraded LBRY Protocol to version 0.21.2 fixing a download bug.</li>
-          <li>Searching now shows results by default, including direct lbry:// URL tile (#1875)</li>
-          <li>Replaced checkboxes with toggles throughout app (#1834)</li>
-          <li>Removed price tile when content is Free (#1845)</li>
-          <li>Pass error message from spee.ch API during thumbnail upload (#1840)</li>
-          <li>Use router pattern for rendering file viewer (#1544)</li>
-          <li>Missing word "to" added to the Bid Help Text (#1854)</li>
-          <li>Updated to electron@2 (#1858)</li>
-        </ul>
-        <p>Fixed:</p>
-        <ul>
-          <li>Node id not being passed correctly (#1895)</li>
-          <li>Subscription quirks including not loading on startup, sorting, showing new content, and sub blank page (#1872)</li>
-          <li>Upgrade on Close button not dismissing properly during automated app update (#1857)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2018-08-14" version="0.24.0">
-      <description>
-        <p>Fixed:</p>
-        <ul>
-          <li>Issue where the publish page would show "Editing" on a new publish (#1864)</li>
-        </ul>
-        <p>Changed:</p>
-        <ul>
-          <li>Upgrade LBRY Protocol to version 0.21.1 to improve download speed and availability.</li>
-          <li>Show label when publish button is disabled while uploading thumbnail to spee.ch (#1867)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2018-08-01" version="0.23.1">
-      <description>
-        <p>Fixed:</p>
-        <ul>
-          <li>Wallet -&gt; Get Credits page now shows correct ShapeShift status when it's avialable (#1836)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2018-07-25" version="0.23.0">
-      <description>
-        <p>Added:</p>
-        <ul>
-          <li>3D file viewer for OBJ and STL file types (#1558)</li>
-          <li>PDF preview (#1576)</li>
-          <li>Thumbnail preview on publish page (#1755)</li>
-          <li>Abandoned claim transactions now show in wallet history (#1769)</li>
-          <li>Added emoji support in the claim description (#1800)</li>
-        </ul>
-        <p>Changed:</p>
-        <ul>
-          <li>Upgraded LBRY Protocol to version 0.20.4 to assist with download availability and lower CPU usage on idle.</li>
-          <li>Upgraded Electron-Builder and Updater to support signing the daemon and improving the auto update process (#1784)</li>
-          <li>Channel page now uses caching, faster switching between channels/claims (#1750)</li>
-          <li>Only show video error modal if you are on the video page and don't retry to play failed videos (#1768)</li>
-          <li>Actually hide NSFW files if a user chooses to hide NSFW content via the settings page (#1748)</li>
-          <li>Hide the "Community top bids" section if user chooses to hide NSFW content (#1760)</li>
-          <li>More descriptive error message when Shapeshift is unavailable (#1771)</li>
-          <li>Rename the Github repo to lbry-desktop (#1765)</li>
-        </ul>
-        <p>Fixed:</p>
-        <ul>
-          <li>Edit option missing from certain published claims (#1756)</li>
-          <li>Fix navigation issue with channels that have more than one page (#1797)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2018-07-09" version="0.22.2">
-      <description>
-        <p>Includes daemon 0.20.3, which should help with the download availability/reliability issues we've seen.</p>
-        <p>Other changes/fixes:</p>
-        <ul>
-          <li>Fixed 'Get Credits' screen so the app doesn't break when LBC is unavailable on ShapeShift (#1739)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2018-07-05" version="0.22.1">
-      <description>
-        <p>Includes daemon 0.20.3, which should help with the download availability/reliability issues we've seen.</p>
-        <p>Other changes/fixes:</p>
-        <ul>
-          <li>Take previous bid amount into account when determining how much users have available to deposit (#1725)</li>
-          <li>Sidebar sizing on larger screens (#1709)</li>
-          <li>Publishing scenario while editing and changing URI (#1716)</li>
-          <li>Fix can't right click &gt; paste into description on publish (#1664)</li>
-          <li>Mac/Linux error when starting app up too quickly after shutdown (#1727)</li>
-          <li>Console errors when multiple downloads for same claim exist (#1724)</li>
-          <li>App version in dev mode (#1722)</li>
-          <li>Long URI name displays in transaction list/Help (#1692)</li>
-          <li>Show claim name, instead of URI, when loading a channel (#1711)</li>
-        </ul>
-        <p>Happy 4th of July if you are celebrating tomorrow</p>
-      </description>
-    </release>
-    <release date="2018-06-26" version="0.22.0">
-      <description>
-        <p>Added:</p>
-        <ul>
-          <li>Ability to upload thumbnails through spee.ch while publishing (#1248)</li>
-          <li>QR code for wallet address to Send and Receive page (#1582)</li>
-          <li>"View on Web" button on file/channel pages with spee.ch link (#1222)</li>
-          <li>Autoplay downloaded and free media along with toggle (#584)</li>
-          <li>Ability to get latest claims from channel on homepage (currently inactive) (#1267)</li>
-          <li>Confirmation prompt when sending credits (#1525)</li>
-          <li>Ability to right click &gt; copy lbry:// hyperlink on tiles (#1486)</li>
-          <li>Buttons to open log file and log directory on the help page (#1556)</li>
-          <li>Ability to resend verification email (#1492)</li>
-          <li>Keyboard shortcut to quit the app on Windows (#1202)</li>
-          <li>Build for both architectures (x86 and x64) for Windows (#1262)</li>
-          <li>Referral FAQ to Invites screen (#1314)</li>
-          <li>Show exact wallet balance on mouse hover over (#1305)</li>
-          <li>Pre-fill publish URL after clicking "Put something here" link (#1303)</li>
-          <li>Danger JS to automate code reviews (#1289)</li>
-          <li>'Go to page' input on channel pagination (#1166)</li>
-        </ul>
-        <p>Changed:</p>
-        <ul>
-          <li>LBRY App UI Redesign 5.0 implemented including new theme, layout, and improved search mechanics (#870) and (#1173)</li>
-          <li>Updated LBRY daemon to 0.20.2 which improves speed and reliability. (v0.20.0, v0.20.1, v0.20.2)</li>
-          <li>Adapted dark mode to redesign (#1269)</li>
-          <li>Show latest claims for across all subscribed channel (no longer grouped by channel) and store sub data in internal database (#1424)</li>
-          <li>New publishes now show as pending on Publishes screen (#1040)</li>
-          <li>Enhanced flair to snackbar (#1313)</li>
-          <li>Made font in price badge larger (#1420)</li>
-          <li>Move rewards logic to interal api (#1509)</li>
-          <li>Narrative about Feature Request on Help Page and Report Page (#1551)</li>
-        </ul>
-        <p>Fixed:</p>
-        <ul>
-          <li>Create channel and publish immediately(#1481)</li>
-          <li>Price not updated on tile/file page (#797)</li>
-          <li>Markdown rendering support on show page (#1179)</li>
-          <li>Content address extending outside of visible area (#741)</li>
-          <li>Content-type not shown correctly in file description (#863)</li>
-          <li>Fix Flow (#1197)</li>
-          <li>Black screen on macOS after maximizing LBRY and then closing (#1235)</li>
-          <li>Download percentage indicator overlay (#1271)</li>
-          <li>Alternate row shading for transactions on dark theme (#1355)</li>
-          <li>Don't allow dark mode with automatic night mode enabled (#1005)</li>
-          <li>Description box on Publish (dark theme) (#1356)</li>
-          <li>Price wrapping in price badge (#1420)</li>
-          <li>Spacing in search suggestions (#1422)</li>
-          <li>Text/HTML files don't display correctly in-app anymore (#1379)</li>
-          <li>Notification modals when reward is claimed (#1436) and (#1407)</li>
-          <li>Disabled cards(grayed out) (#1466)</li>
-          <li>New lines not showing correctly after markdown changes (#1504)</li>
-          <li>Claim ID being null when reporting a claim that was not previously downloaded (PR#1530)</li>
-          <li>URI and outpoint not being passed properly to API (#1494)</li>
-          <li>Incorrect markdown preview on url with parentheses (#1570)</li>
-          <li>Fix Linux upgrade path and add manual installation note (#1606)</li>
-          <li>Fix can type in unfocused fields while publishing without selecting file (#1456)</li>
-          <li>Fix navigation button resulting incorrect page designation (#1502)</li>
-          <li>Fix shouldn't allow to open multiple export and choose file dialogs (#1175)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2018-04-23" version="0.21.3">
-      <description>
-        <p>Added:</p>
-        <ul>
-          <li>Block blacklisted content (#1361)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2018-03-22" version="0.21.2">
-      <description>
-        <p>Added:</p>
-        <ul>
-          <li>Save app state when closing to tray (#968)</li>
-          <li>Added startup-troubleshooting FAQ URL to daemon error (#1039)</li>
-          <li>Added ability to export wallet transactions to JSON and CSV format (#976)</li>
-          <li>Add Rewards FAQ to LBRY app (#1041)</li>
-          <li>Notifications when the channel a user subscribes to uploads new content (#1066)</li>
-          <li>Codacy support for Github contributions (#1059)</li>
-          <li>App category for Linux (#877)</li>
-          <li>Add YouTube Sync reward (#1147)</li>
-          <li>Retain previous screen sizing on startup (#338)</li>
-        </ul>
-        <p>Changed:</p>
-        <ul>
-          <li>Update LBRY Protocol to 0.19.1 (See change log for 0.19.0 and 0.19.1)</li>
-          <li>Improved privacy by allowing users to turn off the file view counter and better understand privacy settings (#1074 / #1116)</li>
-          <li>Disabled auto dark mode if dark mode is selected (#1006)</li>
-          <li>Refactor Electron's main process (#951)</li>
-          <li>Refactor lbryuri.js into separate named exports (#957)</li>
-          <li>Keep node_modules up-to-date when yarn.lock changes due to git (#955)</li>
-          <li>Do not kill an existing daemon, instead check if one exists (#973)</li>
-          <li>Enable play button immediately after user clicks download (#987)</li>
-          <li>Significantly improved search performance (#1032)</li>
-          <li>Allow editing of claims when bid is greater than current balance (#1105)</li>
-        </ul>
-        <p>Fixed:</p>
-        <ul>
-          <li>Fixed sort by date of published content (#986)</li>
-          <li>Fix night mode start time, set to 9PM (#1050)</li>
-          <li>Disable drag and drop of files into the app (#1045)</li>
-          <li>Fixed uninformative error message (#1046)</li>
-          <li>Update documentation for DevTools and fix some ESLint warnings (#911)</li>
-          <li>Fix right click bug (#928)</li>
-          <li>Fix Election linting errors (#929)</li>
-          <li>App will no longer reset when minimizing to tray (#1042)</li>
-          <li>Error when clicking LBRY URLs when app is closed on macOS (#1119)</li>
-          <li>LBRY URLs not working on Linux (#1120)</li>
-          <li>Fix Windows notifications not showing (#1145)</li>
-          <li>Fix export issues (#1163)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2018-01-30" version="0.20.0">
-      <description>
-        <p>Added:</p>
-        <ul>
-          <li>Added Automatic Dark Mode (#950)</li>
-          <li>Re-introduce build dir / dist dir option for isolated build environments (#933)</li>
-          <li>Added sms as a method for reward identity verification (#946)</li>
-          <li>Added auto-update (#808)</li>
-        </ul>
-        <p>Changed:</p>
-        <ul>
-          <li>Refactored Electron's main process (#951)</li>
-          <li>Refactored lbryuri.js into separate named exports (#957)</li>
-          <li>Upgraded Daemon to version 18.2 (#961)</li>
-          <li>Upgraded Electron for security patch (commit)</li>
-        </ul>
-        <p>Fixed:</p>
-        <ul>
-          <li>Fixed issues in documentation (#945)</li>
-          <li>Fixed linting errors (#929)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2018-01-08" version="0.19.4">
-      <description>
-        <p>Added:</p>
-        <ul>
-          <li>Video state tracking in redux - developer only (#890)</li>
-        </ul>
-        <p>Changed:</p>
-        <ul>
-          <li>Improved text content in app (#921)</li>
-        </ul>
-        <p>Fixed:</p>
-        <ul>
-          <li>Right click works in the app again (#928)</li>
-          <li>Icons are now the rights size (#925)</li>
-          <li>Fixed tip sending error (#918)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2017-12-30" version="0.19.3">
-      <description>
-        <p>Changed:</p>
-        <ul>
-          <li>Improved internal code structuring by adding linting integration -- developers only (#891)</li>
-          <li>Improved developer documentation (#910)</li>
-        </ul>
-        <p>Removed:</p>
-        <ul>
-          <li>Removed email verification reward (#914)</li>
-        </ul>
-        <p>Fixed:</p>
-        <ul>
-          <li>Added snackbar text in place where it was coming up blank (#902)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2017-12-23" version="0.19.2">
-      <description>
-        <p>Added:</p>
-        <ul>
-          <li>Added copy address button to the Wallet Address component on Send / Receive (#875)</li>
-          <li>Link to creators’ channels on homepage (#869)</li>
-          <li>Pause playing video when file is opened (#880)</li>
-          <li>Add captcha to verification process (#897)</li>
-        </ul>
-        <p>Changed:</p>
-        <ul>
-          <li>Contributor documentation (#879)</li>
-        </ul>
-        <p>Fixed:</p>
-        <ul>
-          <li>Linux app categorization (#877)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2017-12-13" version="0.19.1">
-      <description>
-        <p>Added:</p>
-        <ul>
-          <li>Added empty rewards message on overview page (#847).</li>
-        </ul>
-        <p>Changed:</p>
-        <ul>
-          <li>Updated developer tools and restructured code (#861).</li>
-        </ul>
-        <p>Fixed:</p>
-        <ul>
-          <li>Fixed typos (#845).</li>
-          <li>Fixed theme-related error while running in development (#865).</li>
-          <li>Fixed build/signing error on Windows (#864).</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2017-12-11" version="0.19.0">
-      <description>
-        <p>Added:</p>
-        <ul>
-          <li>Subscriptions. File and channel pages now show a subscribe button. A new "Subscriptions" tab appears on the homepage shows the most recent content from subscribed channels.</li>
-          <li>LBC acquisition widget. Convert other popular cryptos into LBC via a ShapeShift integration.</li>
-          <li>Flow static type checking. This is a dev-only feature, but will make development faster, less error prone, and better for newcomers.</li>
-        </ul>
-        <p>Changed:</p>
-        <ul>
-          <li>The first run process for new users has changed substantially. New users can now easily receive one credit.</li>
-          <li>The wallet area has been re-organized. Send and Receive are now on the same page. A new page, "Get Credits", explains how users can add LBRY credits to the app.</li>
-          <li>Significant structural changes to code organization, packaging, and building. The app now follows a typical electron folder structure. All 3 package.json files have been reduced to a single file. Redux related code was moved into it's own subfolder.</li>
-          <li>The macOS docking icon has been improved.</li>
-          <li>The prompt for an insufficient balance is much more user-friendly.</li>
-          <li>The credit balance displayed in the main app navigation displays two decimal places instead of one.</li>
-          <li>Video download error messages are now more understandable.(#328)</li>
-          <li>Windows path to the daemon/CLI executables changed to: C:\Program Files (x86)\LBRY\resources\static\daemon</li>
-        </ul>
-        <p>Deprecated:</p>
-        <ul>
-          <li>We previous had two separate modals for insufficient credits. These have been combined.</li>
-        </ul>
-        <p>Fixed:</p>
-        <ul>
-          <li>Long channel names causing inconsistent thumbnail sizes (#721)</li>
-          <li>Channel names in pages are highlighted to indicate them being clickable (#814)</li>
-          <li>Fixed the transaction screen not loading for brand new users (#755)</li>
-          <li>Fixed issues with scrolling and back and forward navigation (#729)</li>
-          <li>Fixed sorting by title for published files (#614)</li>
-          <li>App now uses the new balance_delta field provided by the LBRY API (#611)</li>
-          <li>Abandoning from the claim page now works.(#883)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2017-11-16" version="0.18.2">
-      <description>
-        <p>Fixed:</p>
-        <ul>
-          <li>Email verification is fixed. (#746)</li>
-        </ul>
-      </description>
-    </release>
-    <release date="2017-11-13" version="0.18.0">
-      <description>
-        <p>Added:</p>
-        <ul>
-          <li>Trending! The landing page of the app now features content that is surging in popularity relative to past interest.</li>
-          <li>The app now closes to the system tray. This will help improve publish seeding and network performance. Directing the app to quit or exit will close it entirely. (#374)</li>
-          <li>You can now revoke past publishes to receive your credits. (#581)</li>
-          <li>You can now unlock tips sent to you so you can send them elsewhere or spend them. (#581)</li>
-          <li>Added new window menu options for reloading and help.</li>
-          <li>Rewards are now marked in transaction history (#660)</li>
-        </ul>
-        <p>Changed:</p>
-        <ul>
-          <li>Daemon updated to v0.18.0. The largest changes here are several more network improvements and fixes as well as functionality and improvements related to concurrent heavier usage (bugs and issues largely discoverd by spee.ch).</li>
-          <li>Improved build and first-run process for new developers.</li>
-          <li>Replaced all instances of XMLHttpRequest with native Fetch API (#676).</li>
-        </ul>
-        <p>Fixed:</p>
-        <ul>
-          <li>Fixed console errors on settings page related to improper React input properties.</li>
-          <li>Fixed modals being too narrow after font change (#709)</li>
-          <li>Fixed bug that prevented new channel and first publish rewards from being claimed (#290)</li>
-        </ul>
-      </description>
-    </release>
-  </releases>
+      <release date="2019-03-21" version="0.31.1">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Long links not wrappng on claim pages (70df697)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2019-03-21" version="0.30.0">
+         <description>
+            <p>Added:</p>
+            <ul>
+               <li>Report errors to slack for easier debugging</li>
+               <li>Add viewcount stats to your published content</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Upgrade LBRY SDK to 0.34.0 to support better analytics and faster file starup</li>
+               <li>Minor changes for normalisation hardfork</li>
+               <li>New build setup to support lbry.tv</li>
+               <li>Upgrade Electron and Electron builder to the latest version, including intial differential upgrade support for Windows</li>
+               <li>lbry.io &gt; lbry.com</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+               <li>Incorrect snackbar messaging when attempting to navigate to a malformed claim name.</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2019-03-12" version="0.29.4">
+         <description>
+            <p>Changes:</p>
+            <ul>
+               <li>Fixed an issue regarding a white screen on some videos using the autoplay feature.</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2019-03-07" version="0.29.3">
+         <description>
+            <p>Changes:</p>
+            <ul>
+               <li>Fixed and issue regarding balance display issue when you have 0 LBC.</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2019-02-21" version="0.29.1">
+         <description>
+            <p>Added:</p>
+            <ul>
+               <li>Referral link next to email input on Invite screen(#2287)</li>
+               <li>Simple search filter and feedback options (#2282)</li>
+               <li>Broken heart icon for unsubscribe (#2272)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Upgrade LBRY SDK to 0.32.3 for improved download performance. See 0.31 for other changes since last app release.</li>
+               <li>Styling changes to unify components across projects (#2279)</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+               <li>Inverse button readability on hover (#2271)</li>
+               <li>Shutdown on app close (#2283)</li>
+               <li>Startup on GitHub version check failure (#1744)</li>
+               <li>SDK detection when running manually (#2258)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2019-02-05" version="0.28.0">
+         <description>
+            <p>Changes:</p>
+            <ul>
+               <li>The invite screen revamp and LBC amount/limit increase (20LBC / 10 referrals). You'll be able to claim it via a button in 1 swoop vs claiming 1 by 1.</li>
+               <li>First run screen is less intrusive - no popup, email collection to happen in the row above featured content.</li>
+               <li>More dynamic loading of content on the home page - faster first run, but content is loaded as you scroll down.</li>
+               <li>Auto play next recommended video as an experimental setting</li>
+               <li>Games support - check out - lbry://@OpenSourceGames</li>
+               <li>Mouse back/forward navigation on Windows</li>
+               <li>Menu changes (Downloads/Publishes are no longer under My LBRY)</li>
+               <li>Redeem a special early upgrade reward with code "lbry-028"</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2019-01-22" version="0.27.1">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Channel name overlap on homepage when screen size is small</li>
+               <li>Spacing issue/typo on email collection modal</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2019-01-15" version="0.27.0">
+         <description>
+            <p>Added:</p>
+            <ul>
+               <li>Auto email confirmation (#2169)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>App redesign with shared colors component (#2144)</li>
+               <li>Upgraded LBRY SDK 0.30.4 to improve network stability</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+               <li>Show delete button on users own claims (#2147)</li>
+               <li>Fix "copy" icon being cutoff for some users (2167)</li>
+               <li>Use correct url when copying vanity addresses (#2168)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2018-12-14" version="0.26.1">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Channel subscribe button on search page (#2146)</li>
+               <li>Close modal after redeeming reward code (#2146)</li>
+               <li>Update Electron to prevent segfault on Ubuntu@18.10 (#2146)</li>
+               <li>Show reward code modal when all rewards are claimed (#2146)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2018-12-11" version="0.26.0">
+         <description>
+            <p>Added:</p>
+            <ul>
+               <li>Redemption of custom reward codes via Rewards page (#1935)</li>
+               <li>Ability to manage email preferences from Help page (#1929)</li>
+               <li>History tracking to My LBRY menu (#1846)</li>
+               <li>Gather data for comments support via claim page (#2095)</li>
+               <li>Allow typing of encryption password without clicking entry box (#1977)</li>
+               <li>Focus on search bar with {cmd,ctrl} + l; (#2003)</li>
+               <li>Support for clickable channel names on explore page headings (#2023)</li>
+               <li>Relative time and loading placeholder styles on FileCard/FileTile (#2022)</li>
+               <li>Persistence to Transaction List Filter Selection (#2048)</li>
+               <li>Subscription improvements (#2031)</li>
+               <li>Persistence to File List Filter Selections (#2050)</li>
+               <li>More share options for claim and channel pages (#2088 / #1943)</li>
+               <li>Better error handling on app startup (#2098)</li>
+               <li>FAQ and links in Report page (#2103)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Upgraded to lbrynet v0.30.0 (#1998)</li>
+               <li>Make tooltip smarter, show full title on hover (#1979)</li>
+               <li>Channel pages to have 20 items instead of 10 (#2002)</li>
+               <li>External links to https (#2016)</li>
+               <li>Simplify FileCard and FileTile component styling (#2011)</li>
+               <li>Credit card verification messaging (#2025)</li>
+               <li>Reverse Order &amp; Use System/Location Time/Date (#2036)</li>
+               <li>Limit file type can be uploaded as thumbnail for publishing (#2034)</li>
+               <li>Change snackbar notification position to bottom-left (#2040)</li>
+               <li>Use shared colors from lbryio/color project (#2045)</li>
+               <li>Remove ToS checkbox (#2087)</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+               <li>Show pending transactions on Overview page, with refresh button (#2085)</li>
+               <li>Copyright license not being displayed correctly during edits (#1997)</li>
+               <li>Transactions filter menu collides with transaction table (#2005)</li>
+               <li>Invite table cutoff with large number of invites (#1985)</li>
+               <li>History styling on large screens and link issue with claims (#1999)</li>
+               <li>Satisfy console warnings in publishForm and validation messaging (#2010)</li>
+               <li>App crashing if invalid characters entered in LBRY URL (#2026)</li>
+               <li>File_list call continues indefinitely if a file is removed while downloading (#2042)</li>
+               <li>Open folder containing log file when Open Log File button is clicked (#2078)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2018-09-19" version="0.25.1">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Ensure we record views for downloaded content from subscriptions and autoplay (#1962)</li>
+               <li>Paragraph rendering now properly includes a margin for new paragraphs (#1939)</li>
+               <li>Alignment of "navigate to page" input next to pagination on channel pages (#1941)</li>
+               <li>Table spacing with claim name in transactions table (#1942)</li>
+               <li>Ability to click away from tip screen without the cancel button (#1944)</li>
+               <li>Disallow invalid tip amounts (#1947)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2018-08-29" version="0.25.0">
+         <description>
+            <p>LBRY Bradbury Release</p>
+            <p>Added:</p>
+            <ul>
+               <li>Wallet encryption/decryption user flows in settings (#1785)</li>
+               <li>Suggestions for recommended content on file page (#1845)</li>
+               <li>Auto download setting for subscriptions (#1898)</li>
+               <li>Ability to disable desktop notifications (#1834)</li>
+               <li>Better preview for content (#620)</li>
+               <li>New markdown and docx viewer (#1826)</li>
+               <li>New viewer for human-readable text files (#1826)</li>
+               <li>CSV and JSON viewer (#1410)</li>
+               <li>3D File viewer features and performance/memory usage improvements (#1870)</li>
+               <li>Desktop notification when publish is completed (#1892)</li>
+               <li>FAQ to Publishing Area (#1833)</li>
+               <li>FAQ to wallet security area (#1917)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Upgraded LBRY Protocol to version 0.21.2 fixing a download bug.</li>
+               <li>Searching now shows results by default, including direct lbry:// URL tile (#1875)</li>
+               <li>Replaced checkboxes with toggles throughout app (#1834)</li>
+               <li>Removed price tile when content is Free (#1845)</li>
+               <li>Pass error message from spee.ch API during thumbnail upload (#1840)</li>
+               <li>Use router pattern for rendering file viewer (#1544)</li>
+               <li>Missing word "to" added to the Bid Help Text (#1854)</li>
+               <li>Updated to electron@2 (#1858)</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+               <li>Node id not being passed correctly (#1895)</li>
+               <li>Subscription quirks including not loading on startup, sorting, showing new content, and sub blank page (#1872)</li>
+               <li>Upgrade on Close button not dismissing properly during automated app update (#1857)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2018-08-14" version="0.24.0">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Issue where the publish page would show "Editing" on a new publish (#1864)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Upgrade LBRY Protocol to version 0.21.1 to improve download speed and availability.</li>
+               <li>Show label when publish button is disabled while uploading thumbnail to spee.ch (#1867)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2018-08-01" version="0.23.1">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Wallet -&gt; Get Credits page now shows correct ShapeShift status when it's avialable (#1836)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2018-07-25" version="0.23.0">
+         <description>
+            <p>Added:</p>
+            <ul>
+               <li>3D file viewer for OBJ and STL file types (#1558)</li>
+               <li>PDF preview (#1576)</li>
+               <li>Thumbnail preview on publish page (#1755)</li>
+               <li>Abandoned claim transactions now show in wallet history (#1769)</li>
+               <li>Added emoji support in the claim description (#1800)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Upgraded LBRY Protocol to version 0.20.4 to assist with download availability and lower CPU usage on idle.</li>
+               <li>Upgraded Electron-Builder and Updater to support signing the daemon and improving the auto update process (#1784)</li>
+               <li>Channel page now uses caching, faster switching between channels/claims (#1750)</li>
+               <li>Only show video error modal if you are on the video page and don't retry to play failed videos (#1768)</li>
+               <li>Actually hide NSFW files if a user chooses to hide NSFW content via the settings page (#1748)</li>
+               <li>Hide the "Community top bids" section if user chooses to hide NSFW content (#1760)</li>
+               <li>More descriptive error message when Shapeshift is unavailable (#1771)</li>
+               <li>Rename the Github repo to lbry-desktop (#1765)</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+               <li>Edit option missing from certain published claims (#1756)</li>
+               <li>Fix navigation issue with channels that have more than one page (#1797)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2018-07-09" version="0.22.2">
+         <description>
+            <p>Includes daemon 0.20.3, which should help with the download availability/reliability issues we've seen.</p>
+            <p>Other changes/fixes:</p>
+            <ul>
+               <li>Fixed 'Get Credits' screen so the app doesn't break when LBC is unavailable on ShapeShift (#1739)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2018-07-05" version="0.22.1">
+         <description>
+            <p>Includes daemon 0.20.3, which should help with the download availability/reliability issues we've seen.</p>
+            <p>Other changes/fixes:</p>
+            <ul>
+               <li>Take previous bid amount into account when determining how much users have available to deposit (#1725)</li>
+               <li>Sidebar sizing on larger screens (#1709)</li>
+               <li>Publishing scenario while editing and changing URI (#1716)</li>
+               <li>Fix can't right click &gt; paste into description on publish (#1664)</li>
+               <li>Mac/Linux error when starting app up too quickly after shutdown (#1727)</li>
+               <li>Console errors when multiple downloads for same claim exist (#1724)</li>
+               <li>App version in dev mode (#1722)</li>
+               <li>Long URI name displays in transaction list/Help (#1692)</li>
+               <li>Show claim name, instead of URI, when loading a channel (#1711)</li>
+            </ul>
+            <p>Happy 4th of July if you are celebrating tomorrow</p>
+         </description>
+      </release>
+      <release date="2018-06-26" version="0.22.0">
+         <description>
+            <p>Added:</p>
+            <ul>
+               <li>Ability to upload thumbnails through spee.ch while publishing (#1248)</li>
+               <li>QR code for wallet address to Send and Receive page (#1582)</li>
+               <li>"View on Web" button on file/channel pages with spee.ch link (#1222)</li>
+               <li>Autoplay downloaded and free media along with toggle (#584)</li>
+               <li>Ability to get latest claims from channel on homepage (currently inactive) (#1267)</li>
+               <li>Confirmation prompt when sending credits (#1525)</li>
+               <li>Ability to right click &gt; copy lbry:// hyperlink on tiles (#1486)</li>
+               <li>Buttons to open log file and log directory on the help page (#1556)</li>
+               <li>Ability to resend verification email (#1492)</li>
+               <li>Keyboard shortcut to quit the app on Windows (#1202)</li>
+               <li>Build for both architectures (x86 and x64) for Windows (#1262)</li>
+               <li>Referral FAQ to Invites screen (#1314)</li>
+               <li>Show exact wallet balance on mouse hover over (#1305)</li>
+               <li>Pre-fill publish URL after clicking "Put something here" link (#1303)</li>
+               <li>Danger JS to automate code reviews (#1289)</li>
+               <li>'Go to page' input on channel pagination (#1166)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>LBRY App UI Redesign 5.0 implemented including new theme, layout, and improved search mechanics (#870) and (#1173)</li>
+               <li>Updated LBRY daemon to 0.20.2 which improves speed and reliability. (v0.20.0, v0.20.1, v0.20.2)</li>
+               <li>Adapted dark mode to redesign (#1269)</li>
+               <li>Show latest claims for across all subscribed channel (no longer grouped by channel) and store sub data in internal database (#1424)</li>
+               <li>New publishes now show as pending on Publishes screen (#1040)</li>
+               <li>Enhanced flair to snackbar (#1313)</li>
+               <li>Made font in price badge larger (#1420)</li>
+               <li>Move rewards logic to interal api (#1509)</li>
+               <li>Narrative about Feature Request on Help Page and Report Page (#1551)</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+               <li>Create channel and publish immediately(#1481)</li>
+               <li>Price not updated on tile/file page (#797)</li>
+               <li>Markdown rendering support on show page (#1179)</li>
+               <li>Content address extending outside of visible area (#741)</li>
+               <li>Content-type not shown correctly in file description (#863)</li>
+               <li>Fix Flow (#1197)</li>
+               <li>Black screen on macOS after maximizing LBRY and then closing (#1235)</li>
+               <li>Download percentage indicator overlay (#1271)</li>
+               <li>Alternate row shading for transactions on dark theme (#1355)</li>
+               <li>Don't allow dark mode with automatic night mode enabled (#1005)</li>
+               <li>Description box on Publish (dark theme) (#1356)</li>
+               <li>Price wrapping in price badge (#1420)</li>
+               <li>Spacing in search suggestions (#1422)</li>
+               <li>Text/HTML files don't display correctly in-app anymore (#1379)</li>
+               <li>Notification modals when reward is claimed (#1436) and (#1407)</li>
+               <li>Disabled cards(grayed out) (#1466)</li>
+               <li>New lines not showing correctly after markdown changes (#1504)</li>
+               <li>Claim ID being null when reporting a claim that was not previously downloaded (PR#1530)</li>
+               <li>URI and outpoint not being passed properly to API (#1494)</li>
+               <li>Incorrect markdown preview on url with parentheses (#1570)</li>
+               <li>Fix Linux upgrade path and add manual installation note (#1606)</li>
+               <li>Fix can type in unfocused fields while publishing without selecting file (#1456)</li>
+               <li>Fix navigation button resulting incorrect page designation (#1502)</li>
+               <li>Fix shouldn't allow to open multiple export and choose file dialogs (#1175)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2018-04-23" version="0.21.3">
+         <description>
+            <p>Added:</p>
+            <ul>
+               <li>Block blacklisted content (#1361)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2018-03-22" version="0.21.2">
+         <description>
+            <p>Added:</p>
+            <ul>
+               <li>Save app state when closing to tray (#968)</li>
+               <li>Added startup-troubleshooting FAQ URL to daemon error (#1039)</li>
+               <li>Added ability to export wallet transactions to JSON and CSV format (#976)</li>
+               <li>Add Rewards FAQ to LBRY app (#1041)</li>
+               <li>Notifications when the channel a user subscribes to uploads new content (#1066)</li>
+               <li>Codacy support for Github contributions (#1059)</li>
+               <li>App category for Linux (#877)</li>
+               <li>Add YouTube Sync reward (#1147)</li>
+               <li>Retain previous screen sizing on startup (#338)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Update LBRY Protocol to 0.19.1 (See change log for 0.19.0 and 0.19.1)</li>
+               <li>Improved privacy by allowing users to turn off the file view counter and better understand privacy settings (#1074 / #1116)</li>
+               <li>Disabled auto dark mode if dark mode is selected (#1006)</li>
+               <li>Refactor Electron's main process (#951)</li>
+               <li>Refactor lbryuri.js into separate named exports (#957)</li>
+               <li>Keep node_modules up-to-date when yarn.lock changes due to git (#955)</li>
+               <li>Do not kill an existing daemon, instead check if one exists (#973)</li>
+               <li>Enable play button immediately after user clicks download (#987)</li>
+               <li>Significantly improved search performance (#1032)</li>
+               <li>Allow editing of claims when bid is greater than current balance (#1105)</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+               <li>Fixed sort by date of published content (#986)</li>
+               <li>Fix night mode start time, set to 9PM (#1050)</li>
+               <li>Disable drag and drop of files into the app (#1045)</li>
+               <li>Fixed uninformative error message (#1046)</li>
+               <li>Update documentation for DevTools and fix some ESLint warnings (#911)</li>
+               <li>Fix right click bug (#928)</li>
+               <li>Fix Election linting errors (#929)</li>
+               <li>App will no longer reset when minimizing to tray (#1042)</li>
+               <li>Error when clicking LBRY URLs when app is closed on macOS (#1119)</li>
+               <li>LBRY URLs not working on Linux (#1120)</li>
+               <li>Fix Windows notifications not showing (#1145)</li>
+               <li>Fix export issues (#1163)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2018-01-30" version="0.20.0">
+         <description>
+            <p>Added:</p>
+            <ul>
+               <li>Added Automatic Dark Mode (#950)</li>
+               <li>Re-introduce build dir / dist dir option for isolated build environments (#933)</li>
+               <li>Added sms as a method for reward identity verification (#946)</li>
+               <li>Added auto-update (#808)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Refactored Electron's main process (#951)</li>
+               <li>Refactored lbryuri.js into separate named exports (#957)</li>
+               <li>Upgraded Daemon to version 18.2 (#961)</li>
+               <li>Upgraded Electron for security patch (commit)</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+               <li>Fixed issues in documentation (#945)</li>
+               <li>Fixed linting errors (#929)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2018-01-08" version="0.19.4">
+         <description>
+            <p>Added:</p>
+            <ul>
+               <li>Video state tracking in redux - developer only (#890)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Improved text content in app (#921)</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+               <li>Right click works in the app again (#928)</li>
+               <li>Icons are now the rights size (#925)</li>
+               <li>Fixed tip sending error (#918)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2017-12-30" version="0.19.3">
+         <description>
+            <p>Changed:</p>
+            <ul>
+               <li>Improved internal code structuring by adding linting integration -- developers only (#891)</li>
+               <li>Improved developer documentation (#910)</li>
+            </ul>
+            <p>Removed:</p>
+            <ul>
+               <li>Removed email verification reward (#914)</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+               <li>Added snackbar text in place where it was coming up blank (#902)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2017-12-23" version="0.19.2">
+         <description>
+            <p>Added:</p>
+            <ul>
+               <li>Added copy address button to the Wallet Address component on Send / Receive (#875)</li>
+               <li>Link to creators’ channels on homepage (#869)</li>
+               <li>Pause playing video when file is opened (#880)</li>
+               <li>Add captcha to verification process (#897)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Contributor documentation (#879)</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+               <li>Linux app categorization (#877)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2017-12-13" version="0.19.1">
+         <description>
+            <p>Added:</p>
+            <ul>
+               <li>Added empty rewards message on overview page (#847).</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Updated developer tools and restructured code (#861).</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+               <li>Fixed typos (#845).</li>
+               <li>Fixed theme-related error while running in development (#865).</li>
+               <li>Fixed build/signing error on Windows (#864).</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2017-12-11" version="0.19.0">
+         <description>
+            <p>Added:</p>
+            <ul>
+               <li>Subscriptions. File and channel pages now show a subscribe button. A new "Subscriptions" tab appears on the homepage shows the most recent content from subscribed channels.</li>
+               <li>LBC acquisition widget. Convert other popular cryptos into LBC via a ShapeShift integration.</li>
+               <li>Flow static type checking. This is a dev-only feature, but will make development faster, less error prone, and better for newcomers.</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>The first run process for new users has changed substantially. New users can now easily receive one credit.</li>
+               <li>The wallet area has been re-organized. Send and Receive are now on the same page. A new page, "Get Credits", explains how users can add LBRY credits to the app.</li>
+               <li>Significant structural changes to code organization, packaging, and building. The app now follows a typical electron folder structure. All 3 package.json files have been reduced to a single file. Redux related code was moved into it's own subfolder.</li>
+               <li>The macOS docking icon has been improved.</li>
+               <li>The prompt for an insufficient balance is much more user-friendly.</li>
+               <li>The credit balance displayed in the main app navigation displays two decimal places instead of one.</li>
+               <li>Video download error messages are now more understandable.(#328)</li>
+               <li>Windows path to the daemon/CLI executables changed to: C:\Program Files (x86)\LBRY\resources\static\daemon</li>
+            </ul>
+            <p>Deprecated:</p>
+            <ul>
+               <li>We previous had two separate modals for insufficient credits. These have been combined.</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+               <li>Long channel names causing inconsistent thumbnail sizes (#721)</li>
+               <li>Channel names in pages are highlighted to indicate them being clickable (#814)</li>
+               <li>Fixed the transaction screen not loading for brand new users (#755)</li>
+               <li>Fixed issues with scrolling and back and forward navigation (#729)</li>
+               <li>Fixed sorting by title for published files (#614)</li>
+               <li>App now uses the new balance_delta field provided by the LBRY API (#611)</li>
+               <li>Abandoning from the claim page now works.(#883)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2017-11-16" version="0.18.2">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Email verification is fixed. (#746)</li>
+            </ul>
+         </description>
+      </release>
+      <release date="2017-11-13" version="0.18.0">
+         <description>
+            <p>Added:</p>
+            <ul>
+               <li>Trending! The landing page of the app now features content that is surging in popularity relative to past interest.</li>
+               <li>The app now closes to the system tray. This will help improve publish seeding and network performance. Directing the app to quit or exit will close it entirely. (#374)</li>
+               <li>You can now revoke past publishes to receive your credits. (#581)</li>
+               <li>You can now unlock tips sent to you so you can send them elsewhere or spend them. (#581)</li>
+               <li>Added new window menu options for reloading and help.</li>
+               <li>Rewards are now marked in transaction history (#660)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Daemon updated to v0.18.0. The largest changes here are several more network improvements and fixes as well as functionality and improvements related to concurrent heavier usage (bugs and issues largely discoverd by spee.ch).</li>
+               <li>Improved build and first-run process for new developers.</li>
+               <li>Replaced all instances of XMLHttpRequest with native Fetch API (#676).</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+               <li>Fixed console errors on settings page related to improper React input properties.</li>
+               <li>Fixed modals being too narrow after font change (#709)</li>
+               <li>Fixed bug that prevented new channel and first publish rewards from being claimed (#290)</li>
+            </ul>
+         </description>
+      </release>
+   </releases>
 </component>
