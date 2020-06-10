@@ -68,6 +68,24 @@
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
    <releases>
+      <release date="2020-06-10" version="0.46.2">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Overflow issue when editing replies (community pr!)</li>
+               <li>Comments wrapping in the middle of word (community pr!)</li>
+               <li>Translation improvements (community pr!)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>   
+               <li>Updated lbry-sdk to 0.76.0</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>Make library view mode (Downloads, Purchases) persistent (communit pr!)</li>
+            </ul>
+         </description>
+      </release>
       <release date="2020-06-08" version="0.46.1">
          <description>
             <p>Fixed:</p>
