@@ -68,6 +68,42 @@
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
    <releases>
+      <release date="2020-07-13" version="0.47.0">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Fix report page layout</li>
+               <li>Fix langauge-change not applied to components immedately (community pr!)</li>
+               <li>Fix scenarios where new search results are not appearing when scrolled to the bottom (community pr!)</li>
+               <li>Fix incorrect creator status shwoin when navigating betwen channels (community pr!)</li>
+               <li>Fix unresolved translations in the Splash Screen (community pr!)</li>
+               <li>Fix notification page button being incorrectly disabled by 0 blocked channels (community pr!)</li>
+               <li>Fix "Refresh" on Publush page not showing the loading indiciatior when pressed (community pr!)</li>
+               <li>Fix video duration not appearing on moobile with enough width (community pr!)</li>
+               <li>Fix video transcode setting not reflected correctly (MP3 incorrectly transcoded to MP4) (community pr!)</li>
+               <li>Fix search results not appearing when scrolling due to long tags or following list in the navigation bar (community pr!)</li>
+               <li>Fix unmuted state lost or reverted when playing a new video (community pr!)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>   
+               <li>Updated lbry-sdk to 0.77.0</li>
+               <li>Merged tip and support buttons into one UI on file page</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>Add ability to sign supports</li>
+               <li>Add "tap to unmute" button for videos thatt start with audio muted (community pr!)</li>
+               <li>Allow upgrade bar to be dismissed per session (community pr!)</li>
+               <li>Pause the "autoplay next" timer when performing long operations such as tipping, supporting, or commenting. (community pr!)</li>
+               <li>Email notification management page</li>
+               <li>Publish page imporvements to prevent accidental overwrites of existing claims (community pr!)</li>
+               <li>Option to remove abandon claims from blocked chanels page (community pr!)</li>
+               <li>New channel create / edit page</li>
+               <li>Add dialog to copy various types of links for a claim (community pr!)</li>
+               <li>Add password reset link to settings page for logged in users (community pr!)</li>
+            </ul>
+         </description>
+      </release>
       <release date="2020-06-10" version="0.46.2">
          <description>
             <p>Fixed:</p>
