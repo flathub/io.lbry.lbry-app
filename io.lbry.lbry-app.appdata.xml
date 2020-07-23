@@ -68,6 +68,29 @@
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
    <releases>
+      <release date="2020-07-23" version="0.47.1">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Publish deletion from outside of publishes page</li>
+               <li>Fix 'transcoding' checkbox state when switching file types (community pr!)</li>
+               <li>Fix channel file-search not available in mobile (community pr!)</li>
+               <li>New Channel: Fix incorrect GUI configuation at entry (community pr!)</li>
+               <li>Hide blocked/filtered channels in comments</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>   
+               <li>Updated lbry-sdk to 0.79.1 to improve the reliability of upload process, speed up transaction syncing, and improve transcoding.</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>Allow zooming on Desktop (community pr!)</li>
+               <li>Show "YT Creator" label in File Page as well (community pr!)</li>
+               <li>Add option to retry video stream on failure (community pr!)</li>
+               <li>Allow blocking channels from comments</li>
+            </ul>
+         </description>
+      </release>
       <release date="2020-07-13" version="0.47.0">
          <description>
             <p>Fixed:</p>
