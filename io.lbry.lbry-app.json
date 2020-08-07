@@ -77,7 +77,7 @@
                     "type": "script",
                     "dest-filename": "lbry-app.sh",
                     "commands": [
-                        "exec /app/lbry-app/lbry-app \"$@\""
+                        "env TMPDIR=$XDG_RUNTIME_DIR/app/$FLATPAK_ID /app/lbry-app/lbry-app \"$@\""
                     ]
                 },
                 {
