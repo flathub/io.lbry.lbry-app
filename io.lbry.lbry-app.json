@@ -2,7 +2,7 @@
     "app-id": "io.lbry.lbry-app",
 
     "base": "io.atom.electron.BaseApp",
-    "base-version": "stable",
+    "base-version": "19.08",
 
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "19.08",
@@ -35,17 +35,18 @@
         "shared-modules/libsecret/libsecret.json",
         {
             "name": "libnotify",
+            "buildsystem": "meson",
             "cleanup": [ "/bin" ],
             "config-opts": [
-                "--disable-static",
-                "--disable-tests",
-                "--disable-introspection"
+                "-Dman=false",
+                "-Dtests=false",
+                "-Dintrospection=disabled"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/libnotify/0.7/libnotify-0.7.7.tar.xz",
-                    "sha256": "9cb4ce315b2655860c524d46b56010874214ec27e854086c1a1d0260137efc04"
+                    "url": "https://download.gnome.org/sources/libnotify/0.7/libnotify-0.7.9.tar.xz",
+                    "sha256": "66c0517ed16df7af258e83208faaf5069727dfd66995c4bbc51c16954d674761"
                 }
             ]
         },
