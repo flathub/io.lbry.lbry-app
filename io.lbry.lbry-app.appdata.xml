@@ -68,6 +68,29 @@
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
    <releases>
+      <release date="2020-08-31" version="0.47.2">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Fix sluggish Back button when navigation back to channels with lots of comments (community pr!)</li>
+               <li>Fix 'Related' and 'Comments' section lazy-load not wokring in some scenarios (community pr!)</li>
+               <li>Fix comment-creation failure if you have recently deleted a channel (community pr!)</li>
+               <li>Tip Modal: Don't do final submit when the intention is to create New Channel (community pr!)</li>
+               <li>Fix related + search results loading slowly</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>   
+               <li>Move file properties over thumbnails for more space-saving</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>New FIle Page Layout + make sidebar collapsable</li>
+               <li>Block mature content when accessed directly from URL (community pr!)</li>
+               <li>You can now add LBRY as a search engine in your browser (Via OpenSearch) (community pr!)</li>
+               <li>In-app text and markdown publishing and editing (community pr!)</li>
+            </ul>
+         </description>
+      </release>
       <release date="2020-07-23" version="0.47.1">
          <description>
             <p>Fixed:</p>
