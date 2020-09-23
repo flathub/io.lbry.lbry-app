@@ -68,6 +68,27 @@
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
    <releases>
+      <release date="2020-09-23" version="0.48.0">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Fix partially untranslated text in the Upgrade Modal (community pr!)</li>
+               <li>Fix floating player being paused after dragging (community pr!)</li>
+               <li>Web: Fix 'Download' not tirggering until second attempt (community pr!)</li>
+               <li>Floating Player: Stay within screen when window is resized (community pr!)</li>
+               <li>App crash when including % sign in search (community pr!)</li>
+               <li>Fix markdown editor "preview" not working when an ifram is present (community pr!)</li>
+               <li>Fist comment on claim not showing up immediately</li>
+               <li>Fix "Password updated successfully" kept showing up (community pr!)</li>
+               <li>Fix "Price=free" giving 0 results in following query (community pr!)</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>New comment stats on creator analytics page (jiggy tom certified!)</li>
+            </ul>
+         </description>
+      </release>
+   <releases>
       <release date="2020-08-31" version="0.47.2">
          <description>
             <p>Fixed:</p>
