@@ -68,6 +68,26 @@
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
    <releases>
+      <release date="2020-10-14" version="0.48.1">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Videos started as muted on initial desktop session (community pr!)</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Upgrade Electron to v9</li>
+               <li>Fade out expandable areas (e.g. comments and file description) when collapsed (community pr!)</li>
+               <li>Upgraded SDK to 0.83.0 to support comment pinning</li>
+            </ul>
+            <p>Added:</p>
+            <ul>
+               <li>Add publish preview diaglogue (community pr!)</li>
+               <li>"ctrl/cmd+enter" can now be used to directly submit a comment</li>
+               <li>Deepder comment thread depth</li>
+            </ul>
+         </description>
+      </release>
       <release date="2020-09-23" version="0.48.0">
          <description>
             <p>Fixed:</p>
