@@ -1,7 +1,7 @@
 {
     "app-id": "io.lbry.lbry-app",
 
-    "base": "io.atom.electron.BaseApp",
+    "base": "org.electronjs.Electron2.BaseApp",
     "base-version": "19.08",
 
     "runtime": "org.freedesktop.Platform",
@@ -78,7 +78,7 @@
                     "type": "script",
                     "dest-filename": "lbry-app.sh",
                     "commands": [
-                        "env TMPDIR=$XDG_RUNTIME_DIR/app/$FLATPAK_ID /app/lbry-app/lbry-app \"$@\""
+                        "env TMPDIR=$XDG_RUNTIME_DIR/app/$FLATPAK_ID zypak-wrapper /app/lbry-app/lbry-app \"$@\""
                     ]
                 },
                 {
