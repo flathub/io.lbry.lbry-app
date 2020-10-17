@@ -58,7 +58,7 @@
                 "rm -f LBRY_*.deb",
                 "tar xf data.tar.xz",
                 "rm -f control.tar.gz data.tar.xz debian-binary",
-                "find usr/share/applications/ -name 'lbry.desktop' -type f -exec sed -i 's|/.*/.*/lbry|/app/lbry-app/lbry-app|i' {} \\;",
+                "find usr/share/applications/ -name 'lbry.desktop' -type f -exec sed -i 's|/.*/.*/lbry|/app/bin/lbry-app|i' {} \\;",
                 "cp -r usr/* /app/",
                 "mkdir -p lbry-app",
                 "cp -r opt/LBRY /app/lbry-app",
