@@ -20,6 +20,7 @@ flatpak install flathub org.freedesktop.Platform
 flatpak install flathub io.atom.electron.BaseApp
 
 git clone https://github.com/flathub/io.lbry.lbry-app.git
+git submodule update --init --recursive
 
 flatpak-builder --force-clean --repo=lbry-repo lbry-app io.lbry.lbry-app.json
 flatpak --user remote-add --no-gpg-verify --if-not-exists lbry-app lbry-repo
