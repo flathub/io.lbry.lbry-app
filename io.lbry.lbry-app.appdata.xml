@@ -68,6 +68,15 @@
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
    <releases>
+      <release date="2020-12-15" version="0.49.1">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Sidenav unable to open when on the file page</li>
+               <li>Fix open external button to open files on your OS</li>
+            </ul>
+         </description>
+      </release>
       <release date="2020-12-09" version="0.49.0">
          <description>
             <p>Fixed:</p>
