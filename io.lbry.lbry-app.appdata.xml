@@ -68,6 +68,14 @@
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
    <releases>
+      <release date="2021-02-26" version="0.49.5">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Fix for in-app LBC purchases via MoonPay</li>
+            </ul>
+         </description>
+      </release>
       <release date="2021-01-18" version="0.49.4">
          <description>
             <p>Fixed:</p>
