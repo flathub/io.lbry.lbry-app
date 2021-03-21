@@ -71,7 +71,6 @@
       <release date="2021-02-26" version="0.50.1">
          <description>
             <p>Quick patch to fix the upgrade prompt extending beyond the height of the app. There were too many features and bug fixes to list properly!</p>
-            <p>https://twitter.com/LBRYcom/status/1372674409161498627</p>
          </description>
       </release>
       <release date="2021-02-26" version="0.50.0">
