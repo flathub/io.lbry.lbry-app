@@ -15,9 +15,10 @@ flatpak install flathub io.lbry.lbry-app
 ## Building
 
 ```bash
+# See io.lbry.lbry-app.json for specific versions:
 flatpak install flathub org.freedesktop.Sdk
 flatpak install flathub org.freedesktop.Platform
-flatpak install flathub io.atom.electron.BaseApp
+flatpak install flathub org.electronjs.Electron2.BaseApp
 
 git clone https://github.com/flathub/io.lbry.lbry-app.git
 git submodule update --init --recursive
