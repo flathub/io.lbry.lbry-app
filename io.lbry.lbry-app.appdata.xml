@@ -67,8 +67,16 @@
       <content_attribute id="money-purchasing">mild</content_attribute>
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
-   <releases>
-      <release date="2021-02-26" version="0.50.1">
+<releases>
+      <release date="2021-04-02" version="0.50.2">
+         <description>
+            <p>Fixed:</p>
+            <ul>
+               <li>Fixed PDF desktop vulnerability.</li>
+            </ul>
+         </description>
+      </release>
+   <release date="2021-02-26" version="0.50.1">
          <description>
             <p>Quick patch to fix the upgrade prompt extending beyond the height of the app. There were too many features and bug fixes to list properly!</p>
          </description>
