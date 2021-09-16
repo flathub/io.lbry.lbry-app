@@ -2,10 +2,10 @@
     "app-id": "io.lbry.lbry-app",
 
     "base": "org.electronjs.Electron2.BaseApp",
-    "base-version": "20.08",
+    "base-version": "21.08",
 
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "20.08",
+    "runtime-version": "21.08",
     "sdk": "org.freedesktop.Sdk",
 
     "rename-desktop-file": "lbry.desktop",
@@ -71,8 +71,8 @@
                 {
                     "type": "file",
                     "only-arches": ["x86_64"],
-                    "url": "https://github.com/lbryio/lbry-desktop/releases/download/v0.51.1/LBRY_0.51.1.deb",
-                    "sha256": "a30087d96163e222c23cb128a8ab90f04fa34c8dc8915b345b72396036ce3eb3"
+                    "url": "https://github.com/lbryio/lbry-desktop/releases/download/v0.51.2/LBRY_0.51.2.deb",
+                    "sha256": "671a27efa74c3634fc60d203480ec6eaa05d7c4b81a0a1145e3353e7c8f6099b"
                 },
                 {
                     "type": "script",

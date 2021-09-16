@@ -68,6 +68,49 @@
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
 <releases>
+      <release date="2021-08-20" version="0.51.2">
+        <description>
+            <p>Added:</p>
+            <ul>
+                <li>Show currently active playing item on playlist community pr! (#6453) </li>
+                <li>Add watch later to hover action for last used playlist on popup community pr! (#6274) </li>
+                <li>Add confirmation on comment removal community pr! (#6563) </li>
+                <li>Show on content page if a file is part of a playlist already community pr!(#6393) </li>
+                <li>Add filtering to playlists (#6905) </li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+                <li>Use Canonical Url for copy link (#6500) </li>
+                <li>Use better icon for copy link (#6485) </li>
+                <li>Comments load paginated (#6390) </li>
+                <li>Improve twitter share community pr! (#6690) </li>
+                <li>Update lighthouse search api community pr! (#6731) </li>
+                <li>Update sockety api community pr! (#6747) </li>
+                <li>Use resolve for OG metadata instead of chainquery community pr! (#6787) </li>
+                <li>Improved clickability of notification links community pr! (#6711) </li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+                <li>App now supports '#' and ':' for claimId separator (#6496) </li>
+                <li>Fix "exact match" being applied to Recommended (#6460) </li>
+                <li>Fix upload button on creator analytics community pr! (#6458) </li>
+                <li>Prevent sidebar shortcut activation on textarea community pr! (#6454) </li>
+                <li>Improve accessibility and some minor css fixes community pr! (#6470) </li>
+                <li>Fix drag / drop publish issues for web users community pr! (#6466) </li>
+                <li>Fix yarn copyenv on windows community pr! (#6702) </li>
+                <li>Fix unnecessary livestream api calls in channel page community pr! (#6652) </li>
+                <li>Fix desktop app fails to resolve deep links community pr! (#6779) </li>
+                <li>Fix wrong release date on GoogleVideo metadata community pr! (#6787) </li>
+                <li>Fix markdown line breaking mid word community pr! (#6805) (#6652) </li>
+                <li>Added \ and = to reserved symbol warning community pr! (#6733) </li>
+                <li>Don't break words in chat + fix text overflow past 3 dot menu community pr! (#6602) </li>
+                <li>Fix embed shows wrong OG metadata community pr! (#6815) </li>
+                <li>Fix OG: "Unparsable data structure - Truncated Unicode character" community pr! (#6839) </li>
+                <li>Fix Paid embed warning overlay redirection button now links to odysee community pr! (#6819) </li>
+                <li>Fix comment section redirection to create channel community pr! (#6557) </li>
+            </ul>
+        </description>
+      </release>
       <release date="2021-06-26" version="0.51.1">
         <description>
             <p>Fixed:</p>
