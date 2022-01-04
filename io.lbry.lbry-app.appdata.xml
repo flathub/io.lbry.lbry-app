@@ -67,7 +67,54 @@
       <content_attribute id="money-purchasing">mild</content_attribute>
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
-<releases>
+   <releases>
+      <release date="2021-12-31" version="0.52.0">
+        <description>
+            <p>Added:</p>
+            <ul>
+               <li>Direct replying to notifications community pr!</li>
+               <li>Added "Replay" option on autoplay countdown</li>
+               <li>Added "Loop" option on Lists</li>
+               <li>Added "Shuffle" option on Lists</li>
+               <li>Added Play Next/Previous buttons</li>
+               <li>Separate control for autoplay next on video player</li>
+               <li>Channel Mention selection ability while creating a comment</li>
+               <li>Disk space setting under Data Hosting</li>
+               <li>Paginated 'All Playlists' page</li>
+               <li>Expanded playlist ordering tools</li>
+               <li>Setting to upgrade to alpha prerelease builds</li>
+            </ul>
+            <p>Changed:</p>
+            <ul>
+               <li>Changing the supported language from Filipino to Tagalog community pr!</li>
+               <li>Don't show countdown to next item in list</li>
+               <li>Changed "View List" popup option to link, so can be opened on a new tab</li>
+               <li>App reorganized to remove lbry-redux and lbryinc repository dependencies</li>
+               <li>Styling cleanup for file reactions</li>
+               <li>Change share url to odysee and allow custom share url in settings</li>
+               <li>Change Sign in/up to Cloud Connect for Odysee</li>
+               <li>Upgraded to lbrynet v0.106.0</li>
+               <li>Upgraded Electron to v11.5.0</li>
+               <li>Cleaner Discover page filters</li>
+               <li>Scroll bar styling</li>
+               <li>Remove pages for obsolete features like invites, rewards, swap</li>
+               <li>Change file repost to modal community pr!</li>
+            </ul>
+            <p>Fixed:</p>
+            <ul>
+               <li>Clicking on the title of a floating player will take you back to the list</li>
+               <li>Fix floating player stopping on markdown or image files</li>
+               <li>Fix list thumbnail upload</li>
+               <li>Stream Key is now hidden community pr!</li>
+               <li>Fix playlist preview thumbnail</li>
+               <li>Fixed “Your Account” popup on mobile</li>
+               <li>Fix disable-support for comments</li>
+               <li>Fix Electron taking over .html files on linux</li>
+               <li>Fix floating player play/pause on drag community pr!</li>
+               <li>Fix card dropdown menus triggering menu actions community pr!</li>
+            </ul>
+        </description>
+      </release>
       <release date="2021-08-20" version="0.51.2">
         <description>
             <p>Added:</p>
