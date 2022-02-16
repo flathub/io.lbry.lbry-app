@@ -68,6 +68,16 @@
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
    <releases>
+      <release date="2022-02-15" version="0.52.3">
+         <description>
+              <p>Fixed:</p>
+              <ul>
+                <li>Fixed comment editing and pinning</li>
+                <li>Fixed mac header</li>
+                <li>Fixed markdown display and lbry url embedding</li>
+              </ul>
+        </description>
+      </release>
       <release date="2022-02-11" version="0.52.2">
          <description>
              <p>Added:</p>
