@@ -68,6 +68,15 @@
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
    <releases>
+      <release date="2022-02-16" version="0.52.4">
+         <description>
+              <p>Fixed:</p>
+              <ul>
+                 <li>Fixed active channel</li>
+                 <li>Remove extra search button in header</li>
+              </ul>
+        </description>
+      </release>
       <release date="2022-02-15" version="0.52.3">
          <description>
               <p>Fixed:</p>
