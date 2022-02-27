@@ -68,6 +68,54 @@
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
    <releases>
+      <release date="2022-02-16" version="0.52.4">
+         <description>
+              <p>Fixed:</p>
+              <ul>
+                 <li>Fixed active channel</li>
+                 <li>Remove extra search button in header</li>
+              </ul>
+        </description>
+      </release>
+      <release date="2022-02-15" version="0.52.3">
+         <description>
+              <p>Fixed:</p>
+              <ul>
+                <li>Fixed comment editing and pinning</li>
+                <li>Fixed mac header</li>
+                <li>Fixed markdown display and lbry url embedding</li>
+              </ul>
+        </description>
+      </release>
+      <release date="2022-02-11" version="0.52.2">
+         <description>
+             <p>Added:</p>
+             <ul>
+                <li>Reenabled generating thumbs from video</li>
+                <li>Brought in playlist drag and drop playlist reordering odysee team!</li>
+                <li>Added duration overlays to ClaimPreview component</li>
+                <li>Some Horizontal Scroll groundwork from odysee team!</li>
+                <li>Comment Emotes and Stickers and Mentions refactors from odysee team!</li>
+                <li>Seek forward and back from odysee team!</li>
+              </ul>
+              <p>Changed:</p>
+              <ul>
+                <li>Upgraded Electron to v15</li>
+                <li>Performance improvements in some selectors</li>
+                <li>More Header refactoring from odysee team!</li>
+                <li>Header refactoring from odysee team!</li>
+                <li>Data hosting ui incomplete</li>
+                <li>Updated c: control tags from odysee team!</li>
+                <li>Nav keycodes</li>
+                <li>Improved comment-server selection ui/ux</li>
+                <li>Improved Data Hosting settings</li>
+              </ul>
+              <p>Fixed:</p>
+              <ul>
+                <li>Several fallout bugs from recent changes</li>
+              </ul>
+        </description>
+      </release>
       <release date="2021-12-31" version="0.52.0">
         <description>
             <p>Added:</p>
