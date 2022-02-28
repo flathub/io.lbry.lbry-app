@@ -68,6 +68,15 @@
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
    <releases>
+      <release date="2022-02-26" version="0.52.5">
+         <description>
+              <p>Fixed:</p>
+              <ul>
+                 <li>New data hosting ux</li>
+                 <li>Fix markdown guide button</li>
+              </ul>
+        </description>
+      </release>
       <release date="2022-02-16" version="0.52.4">
          <description>
               <p>Fixed:</p>
