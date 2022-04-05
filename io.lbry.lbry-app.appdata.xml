@@ -68,6 +68,31 @@
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
    <releases>
+            <release date="2022-04-05" version="0.52.6">
+         <description>
+             <p>Added:</p>
+             <ul>
+                <li>Discover page medium duration filter</li>
+                <li>Keep last used collection for Add To</li>
+                <li>Disk space functionality on Mac / Windows</li>
+                <li>Enabled renaming private collections</li>
+              </ul>
+              <p>Changed:</p>
+              <ul>
+                <li>Some upgrade modal improvements</li>
+                <li>Updated lbry-sdk to 0.107.1</li>
+                <li>New YRBL!; facelift for first run</li> 
+              </ul>
+              <p>Fixed:</p>
+              <ul>
+                <li>Failed comment count increment</li>
+                <li>App crash playing media on older Windows versions by updating Electron</li>
+                <li>Local build failures on Mac</li>
+                <li>Language change now rerenders whole app</li>
+                <li>Prevent crash when deleting last comment reply</li>
+              </ul>
+        </description>
+      </release>
       <release date="2022-02-26" version="0.52.5">
          <description>
               <p>Fixed:</p>
