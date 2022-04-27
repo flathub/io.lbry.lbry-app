@@ -68,6 +68,23 @@
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
 <releases>
+            <release date="2022-04-27" version="0.53.2">
+         <description>
+              <p>Changed:</p>
+              <ul>
+                <li>Upgraded Yarn to Berry branch</li>
+                <li>Removed some lbrytv references</li>
+                <li>Removed some lbrytv player references</li>
+              </ul>
+              <p>Fixed:</p>
+              <ul>
+                <li>Rpost style issues</li>
+                <li>Disappearing sidebar thumbs</li>
+                <li>Restore tags sidebar link</li>
+                <li>Playlist view link no longer crashes</li>
+              </ul>
+        </description>
+      </release>
             <release date="2022-04-22" version="0.53.1">
          <description>
              <p>Added:</p>
