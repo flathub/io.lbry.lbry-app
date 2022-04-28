@@ -68,7 +68,16 @@
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
 <releases>
-            <release date="2022-04-27" version="0.53.2">
+            <release date="2022-04-28" version="0.53.3">
+         <description>
+              <p>Fixed:</p>
+              <ul>
+                <li>Reverted lbry.tv changes that broke production login </li>
+                <li>Reverted lbry.tv changes that broke login</li>
+              </ul>
+        </description>
+      </release>
+   <release date="2022-04-27" version="0.53.2">
          <description>
               <p>Changed:</p>
               <ul>
