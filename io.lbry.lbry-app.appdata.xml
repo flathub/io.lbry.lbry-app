@@ -68,7 +68,29 @@
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
 <releases>
-            <release date="2022-04-28" version="0.53.3">
+  <release date="2022-06-10" version="0.53.4">
+         <description>       
+            <p>Added:</p>
+              <ul>
+                <li>Add top in language category for non-English on homepage</li>
+                <li>Auto hosting in settings and hosting first run page</li>
+              </ul>       
+            <p>Changed:</p>
+              <ul>
+                <li>Updated lbry-sdk to 0.107.2</li>
+              </ul>  
+            <p>Fixed:</p>
+              <ul>
+                <li>Better handle empty collections</li>
+                <li>Better handle thumbnails in uploads/collections</li>
+                <li>Work towards supporting collections of any claim type</li>
+                <li>Improve handling of downed custom servers on startup</li>
+                <li>Hide watch progress in related if being played</li>
+                <li>IPC disk space calls wait for daemon ready; refresh on vis. component load</li>
+              </ul>
+        </description>
+      </release>
+  <release date="2022-04-28" version="0.53.3">
          <description>
               <p>Fixed:</p>
               <ul>
