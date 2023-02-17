@@ -68,6 +68,32 @@
       <content_attribute id="money-gambling">none</content_attribute>
    </content_rating>
 <releases>
+<release date="2022-08-26" version="0.53.5">
+         <description>       
+            <p>Added:</p>
+              <ul>
+                <li>Checkbox to disable background wallpaper</li>
+                <li>Handle content blocking from hub</li>
+              </ul>  
+            <p>Fixed:</p>
+              <ul>
+                <li>Better handle decimals liquidating supports</li>
+                <li>Better handle cover uploads</li>
+                <li>Use default path when first choosing file on windows</li>
+                <li>Emoji button hover (#7620)</li>
+                <li>Prevent infinite retries on thumbs</li>
+                <li>Double splash/error on app startup</li>
+                <li>App updates are now more coherent, also debs work.</li>
+                <li>Better handle many channels moderation calls at startup</li>
+                <li>Fix mobile floating viewer position (#7677)</li>
+              </ul>
+            <p>Changed:</p>
+              <ul>
+                <li>Upgraded Electron to v15.5.5</li>
+                <li>Upgraded to lbrynet v0.110.0</li>
+              </ul>
+        </description>
+      </release>
   <release date="2022-06-10" version="0.53.4">
          <description>       
             <p>Added:</p>
